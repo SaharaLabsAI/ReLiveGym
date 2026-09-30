@@ -1,4 +1,4 @@
-# Long-lived agents over replayed reality — code release
+# Long-lived agents over replayed reality — preliminary code release
 
 This folder is a self-contained copy of the code behind the paper's main-body
 experiments: the simulated environment, the eight benchmark tasks with their
