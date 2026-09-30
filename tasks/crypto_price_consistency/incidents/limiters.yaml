@@ -1,0 +1,119 @@
+# Layer M — per-venue rate-limiter state machines.
+#
+# These are CONFIG for the replay proxy, not sampled events: the system under
+# test's own request pattern drives them, so correct backoff is rewarded for
+# mechanism-based reasons. Capacity-modulation events in scenario files
+# multiply `budget` by their `budget_factor` for the event window — that is
+# the "unexplained 429" mode: the client's request pattern didn't change, the
+# budget did.
+#
+# Values come from each venue's public rate-limit documentation as of
+# 2026-08. Where a venue documents a range or the docs are vague, the chosen
+# constant is marked `basis: approximate` with a note; these constants are
+# never a tuning surface.
+
+schema_version: 1
+
+venues:
+  binance:
+    # https://developers.binance.com/docs/binance-spot-api-docs/rest-api/limits
+    window: fixed_window
+    window_seconds: 60
+    budget: 6000              # request-weight per IP per minute
+    request_weight: 2         # GET /api/v3/klines
+    basis: documented
+    on_exhaustion:
+      status: 429
+      retry_after_header: true
+    # Documented: continuing to send requests after a 429 escalates to an
+    # HTTP 418 IP ban "from 2 minutes to 3 days". The intermediate steps are
+    # not published; this schedule interpolates the documented endpoints.
+    ban_escalation:
+      trigger: request_while_429   # any request before Retry-After expires
+      status: 418
+      durations_minutes: [2, 10, 30, 120, 720, 1440, 4320]
+      schedule_basis: approximate  # endpoints documented, steps interpolated
+      decay_hours: 24              # violation counter resets after clean day
+
+  okx:
+    # https://www.okx.com/docs-v5/en/#public-data-rest-api-get-candlesticks
+    window: sliding_window
+    window_seconds: 2
+    budget: 40                # requests per 2s per IP, /api/v5/market/candles
+    request_weight: 1
+    basis: documented
+    on_exhaustion:
+      status: 429
+      retry_after_header: false
+    ban_escalation: null      # no documented ban escalation
+
+  kucoin:
+    # https://www.kucoin.com/docs/basic-info/request-rate-limit/rest-api
+    window: fixed_window
+    window_seconds: 30
+    budget: 2000              # public weight pool per IP per 30s (spot)
+    request_weight: 3         # GET /api/v1/market/candles
+    basis: documented
+    on_exhaustion:
+      status: 429
+      retry_after_header: false
+    ban_escalation: null
+
+  coinbase:
+    # https://docs.cdp.coinbase.com/exchange/docs/rest-rate-limits
+    window: token_bucket
+    refill_per_second: 10     # public endpoints per IP
+    burst: 15
+    request_weight: 1
+    basis: documented
+    on_exhaustion:
+      status: 429
+      retry_after_header: false
+    ban_escalation: null
+
+  bitstamp:
+    # https://www.bitstamp.net/api/ — "Do not make more than 8000 requests
+    # per 10 minutes or we will ban your IP address."
+    window: fixed_window
+    window_seconds: 600
+    budget: 8000
+    request_weight: 1
+    basis: documented
+    on_exhaustion:
+      status: 429
+      retry_after_header: false
+    ban_escalation:
+      trigger: sustained_excess    # docs threaten an outright IP ban
+      status: 403
+      durations_minutes: [60]
+      schedule_basis: approximate  # ban documented, duration not published
+      decay_hours: 24
+
+  coingecko:
+    # https://docs.coingecko.com/reference/common-errors-rate-limit
+    # Keyless public tier: "5 to 15 calls per minute, depending on usage
+    # conditions" — inherently variable; the baseline is the documented
+    # ceiling and capacity-modulation events model the observed shrinkage.
+    window: fixed_window
+    window_seconds: 60
+    budget: 15
+    request_weight: 1
+    basis: approximate        # documented as a load-dependent range
+    on_exhaustion:
+      status: 429
+      retry_after_header: true
+    ban_escalation: null
+
+  defillama:
+    # https://defillama.com/docs/api — free tier, no published hard limit.
+    # Courtesy budget chosen conservatively; authored, swept implicitly via
+    # capacity modulation like every other venue.
+    window: fixed_window
+    window_seconds: 60
+    budget: 60
+    request_weight: 1
+    basis: authored
+    on_exhaustion:
+      status: 429
+      retry_after_header: false
+    ban_escalation: null

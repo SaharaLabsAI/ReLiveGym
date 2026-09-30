@@ -1,0 +1,16 @@
+run_id: cpc-tmB-tlrnnone-signone-algnone
+cell:
+  tm: B
+  tlrn: none
+  sig: none
+  alg: none
+task:
+  name: crypto_price_consistency
+  trace: fitted_dev_s001
+  symbols: [BTC, ETH]
+sim_start: '2026-03-01T00:00:00Z'
+sim_end: '2026-03-15T00:00:00Z'
+budget_usd: 20.0
+agent:
+  scaffold: react
+seed: 0

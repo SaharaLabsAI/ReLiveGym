@@ -1,0 +1,2 @@
+{"trace": "stress_ban_trap", "generator_version": "v1", "window": ["2026-03-01T00:00:00Z", "2026-08-01T00:00:00Z"], "provenance": "authored", "note": "budget ~0; retry-without-backoff walks into the 418 escalating ban"}
+{"id": "evt-001", "layer": "M", "venue": "binance", "mode": "capacity_modulation", "start": "2026-04-09T14:00:00Z", "end": "2026-04-09T18:00:00Z", "params": {"budget_factor": 0.02}, "provenance": "authored"}

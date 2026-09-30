@@ -1,0 +1,20 @@
+{
+  "markets": 350,
+  "breakpoints": 1525,
+  "hourly_fallbacks": 109,
+  "episodes": 1525,
+  "attributed_episodes": 953,
+  "groups": 1073,
+  "cited_prefixes": 2874,
+  "unresolved_prefixes": 0,
+  "gold_preview_defaults": {
+    "attr_threshold": 0.6,
+    "w_hours": 24,
+    "gold_groups": 598,
+    "gold_articles": 1410,
+    "winnable_breakpoints": 580,
+    "unwinnable_breakpoints": 945,
+    "articles_dropped_early": 238,
+    "articles_dropped_late": 1194
+  }
+}

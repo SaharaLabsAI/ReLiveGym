@@ -1,0 +1,17 @@
+run_id: baseline
+task:
+  name: weather_fixture
+  location: LA
+  data_cutoff: 2023-08-01T00:00:00Z
+  threshold_c: 33.0
+  cost:
+    weather_call: 0.01
+    delay_factor: 0.02
+    miss_cap: 11.52
+    false_alarm: 11.52
+sim_start: 2023-08-01T00:00:00Z
+sim_end: 2023-08-15T00:00:00Z
+cost:
+  llm_flat: 0.01
+agent:
+  scaffold: baseline_poller

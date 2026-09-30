@@ -1,0 +1,42 @@
+run_id: eval-bnpm-w17full-tmA-ext
+window_id: bnpm-2026w17
+cell:
+  tm: A
+  tlrn: none
+  sig: none
+  alg: none
+task:
+  name: breakout_news_pm
+  markets:
+  - market_id: '1912013'
+    start: '2026-04-24T00:00:00Z'
+    end: '2026-05-21T00:00:00Z'
+  - market_id: '1343472'
+    start: '2026-04-24T00:00:00Z'
+    end: '2026-05-21T00:00:00Z'
+  - market_id: '908713'
+    start: '2026-04-24T00:00:00Z'
+    end: '2026-05-21T00:00:00Z'
+  - market_id: '1651916'
+    start: '2026-04-24T00:00:00Z'
+    end: '2026-05-21T00:00:00Z'
+  - market_id: '572133'
+    start: '2026-04-24T00:00:00Z'
+    end: '2026-05-21T00:00:00Z'
+  - market_id: '1326777'
+    start: '2026-04-24T00:00:00Z'
+    end: '2026-05-21T00:00:00Z'
+  - market_id: '1168139'
+    start: '2026-04-24T00:00:00Z'
+    end: '2026-05-21T00:00:00Z'
+  - market_id: '601820'
+    start: '2026-04-24T00:00:00Z'
+    end: '2026-05-21T00:00:00Z'
+sim_start: '2026-04-24T00:00:00Z'
+sim_end: '2026-05-21T00:00:00Z'
+budget_usd: 70.0
+domain_budgets:
+  llm: 20.0
+agent:
+  scaffold: ext:candidate
+seed: 0

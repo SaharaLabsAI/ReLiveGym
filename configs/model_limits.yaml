@@ -1,0 +1,38 @@
+# Global LLM context-window table — tokens (context / output) per bare
+# model name, the companion of model_costs.yaml.
+#
+# Why it exists: OpenCode's automatic context compaction keys off the
+# model's declared `limit.context`; a custom provider (our env proxy)
+# starts at 0, and 0 means "never compact". The 2026-09-17 broker grid
+# ran every OpenCode session with no limit declared: gpt-5.6-luna TM-D
+# reached 400k prompt tokens per call with zero compactions. prepare
+# writes `limit: {context, output}` into opencode.json from THIS file
+# and refuses a model that has no entry (same policy as pricing).
+#
+# `context` is the model's total window and `output` its max completion
+# length, as the provider publishes them. OpenCode compacts when a step's
+# total tokens reach context − reserved (reserved = min(20000, output)).
+#
+# Sources: OpenRouter rows pinned 2026-09-18 from GET
+# openrouter.ai/api/v1/models (context_length, top_provider
+# .max_completion_tokens). OpenAI-direct gpt-5.x rows use the same
+# numbers OpenRouter lists for openai/<model>.
+
+models:
+  gpt-5.6-luna:  {context: 1050000, output: 128000}
+  gpt-5.6-terra: {context: 1050000, output: 128000}
+  gpt-5.6-sol:   {context: 1050000, output: 128000}
+  gpt-5.4:       {context: 1050000, output: 128000}
+  gpt-5.4-mini:  {context: 400000,  output: 128000}
+  deepseek/deepseek-v4-pro:     {context: 1048576, output: 393216}
+  moonshotai/kimi-k3:           {context: 1048576, output: 943718}
+  google/gemini-3.5-flash-lite: {context: 1048576, output: 65536}
+  google/gemini-3.5-flash:      {context: 1048576, output: 65536}
+  deepseek/deepseek-v4-flash:   {context: 1048576, output: 384000}
+  moonshotai/kimi-k2.6:         {context: 262144,  output: 235929}
+  anthropic/claude-haiku-4.5:   {context: 200000,  output: 64000}
+  z-ai/glm-5.2:                 {context: 1048576, output: 131072}
+  qwen/qwen3.7-plus:            {context: 1000000, output: 131072}
+  minimax/minimax-m3:           {context: 1048576, output: 512000}
+  openai/gpt-5.6-luna:  {context: 1050000, output: 128000}
+  openai/gpt-5.6-terra: {context: 1050000, output: 128000}

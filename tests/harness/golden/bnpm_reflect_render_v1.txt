@@ -1,0 +1,122 @@
+===== 1. YOUR ROLE (instructions to YOU, the skill-block writer) =====
+
+You maintain the skill block of an automated program that alerts on the
+news driving abrupt prediction-market moves. You are NOT that program:
+you are its once-per-learning-cycle reviewer. You receive the evidence
+below and reply with a complete replacement skill block; the program
+reads your block in its decision context, with no tools in hand, so
+every rule must be applicable at decision time from the block alone.
+
+Reflection #3 — sim time 2026-03-08T00:30:00Z — 3 record(s) settled since the previous reflection, 6 settled in total this run.
+
+The program's score is TC-F1: the harmonic mean of TC-recall (sum of
+time credits / breakouts with attributable news) and precision
+(covering notifications / all resolved notifications). The spec quoted
+in section 3 defines the objective, the budget, and the rate limits.
+
+===== 2. GLOSSARY (how to read the evidence records) =====
+
+Each record: {t: when logged, src: who judged it (oracle = the
+hindsight judge; self = the program's own hindsight check), outcome,
+action: what the program did (its cited article title, direction,
+time; null when it never acted on this outcome), note}.
+
+outcome.kind = "alert" — verdict on ONE notification the program sent
+(`at` = when it notified). Statuses: covering_news (best: cited the
+causal article; the time credit is booked on the matching breakpoint —
+1 at publish, decaying to 0 at the move start) | covering_timing
+(right market/direction/time, wrong article; a flat partial credit on
+the matching breakpoint) | false_alarm (hurts precision) |
+wrong_direction (excused — no precision harm — when that breakout was
+missed anyway) | stale.
+
+outcome.kind = "breakpoint" — verdict on ONE abrupt price move that
+happened (`t_move_start` = when). Statuses: covered_news /
+covered_timing (an alert of the program caught it; `credit` is the
+recall credit earned for that pair; notified_at = the covering alert) |
+miss (credit 0: no alert preceded it). winnable = causal news existed in
+time to act on. gold_groups = the judge's causal stories for the move:
+story text, attribution confidence, and the attributed articles with
+publish times; articles marked seen_by_you were observed by the
+program before the move (a catchable one).
+
+Sig-self verdicts (only if src = "self"): attributed = the program's
+own hindsight linked an article to a move; no_breakout = it checked
+and found no move. notification_latency_hours = article publish ->
+program's notification. market_question / news_title are resolved for
+readability; ids are stable keys.
+
+===== 3. THE PROGRAM'S TASK SPEC (quoted; every "you" inside this
+section means the ACTING PROGRAM, not you the reviewer) =====
+
+<<<SPEC
+# Task
+Alert on the news driving abrupt market moves; score = penalties plus spend, lower is better.
+
+SPEC>>>
+
+===== 4. MARKETS AND RESOLUTION WORDING (direction is defined by
+each market's settlement wording) =====
+
+- 616902: Will no Fed rate cuts happen in 2026?
+  resolution: Resolves YES if the Federal Reserve makes no cut to the target rate at any 2026 meeting. Resolves YES if the Federal Reserve makes no cut to the target rate at any 2026 meeting. Resolves YES if the Federal Reserve makes no cut to the target rate at any 2026 meeting. Resolves YES if the Federal Reserve makes no cut to the target rate at any 2026 meeting. Resolves YES if the Federal Reserve makes no cut to the target rate at any 2026 meeting. Resolves YES if the Federal Reserve makes no cut to the target rate at any 2026 meeting. […]
+- 582717: Russia x Ukraine ceasefire before 2027?
+
+===== 5. CUMULATIVE EVIDENCE (whole run so far — base rates live
+here) =====
+
+Outcome counts to date:
+own actions settled — covered_news: 1, false_alarm: 1, stale: 1
+other outcomes settled — miss: 2, no_breakout: 1
+
+Per-market ledger to date:
+582717: miss 1, no_breakout 1, stale 1
+616902: covered_news 1, false_alarm 1, miss 1
+
+Digest of every settled breakout, newest last (gold = the judge's
+causal story and its publish->move lead — what covered_news would
+have required):
+2026-03-04 | 616902 "Will no Fed rate cuts happen in 2026?" | down | miss | lead 5.1h pub->move | gold: Jobs report shocked markets into pricing an emergency cut. (seen_by_you)
+2026-03-05 | 582717 "Russia x Ukraine ceasefire before 2027?" | up | miss | no attributable news (unwinnable)
+2026-03-07 | 582717 "Russia x Ukraine ceasefire before 2027?" | verdict no_breakout | Ceasefire talks stall
+
+Every own action of the program and how it resolved (JSON lines,
+newest last):
+{"t":"2026-03-03T00:30:00Z","src":"oracle","outcome":{"kind":"alert","market_id":"616902","news_id":"abc123","direction":"up","status":"false_alarm","penalty":5.0,"market_question":"Will no Fed rate cuts happen in 2026?","news_title":"Fed holds rates"},"action":null,"note":null}
+{"t":"2026-03-04T00:30:00Z","src":"oracle","outcome":{"kind":"breakpoint","market_id":"616902","status":"covered_news","penalty":12.5,"news_id":"abc123","t_move_start":"2026-03-03T13:00:00Z","market_question":"Will no Fed rate cuts happen in 2026?","news_title":"Fed holds rates"},"action":{"did":"alerted","at":"2026-03-03T02:00:00Z","market_id":"616902","direction":"up","title":"Fed holds rates"},"note":null}
+{"t":"2026-03-07T12:00:00Z","src":"oracle","outcome":{"kind":"alert","market_id":"582717","news_id":"def456","direction":"up","status":"stale","penalty":1.0,"market_question":"Russia x Ukraine ceasefire before 2027?","news_title":"Ceasefire talks stall"},"action":null,"note":null}
+
+===== 6. SETTLED SINCE THE LAST REFLECTION (the new information this
+cycle) =====
+
+New-outcome counts (this interval only — NOT base rates; see section
+5 for those):
+own actions settled — stale: 1
+other outcomes settled — miss: 1, no_breakout: 1
+
+A stratified sample of the new non-own records, up to a few per
+status (sampled, so not frequency-representative):
+{"t":"2026-03-06T00:30:00Z","src":"oracle","outcome":{"kind":"breakpoint","market_id":"582717","status":"miss","penalty":50.0,"direction":"up","t_move_start":"2026-03-05T09:00:00Z","no_attributable_news":true,"market_question":"Russia x Ukraine ceasefire before 2027?"},"action":null,"note":null}
+{"t":"2026-03-07T00:30:00Z","src":"self","outcome":{"verdict":"no_breakout","market_id":"582717","news_id":"def456","market_question":"Russia x Ukraine ceasefire before 2027?","news_title":"Ceasefire talks stall"},"action":null,"note":null}
+
+===== 7. COST REPORT (spend does not enter the score; a spent budget
+refuses the program's LLM and paid calls) =====
+
+spend since last reflection: llm $3.55, news_article $0.30, news_search $1.40
+cumulative spend: $8.75 (of the run budget — see INSTRUCTION.md)
+current standing wait: {"until":"2026-03-08T12:00:00Z"}
+recurring schedule: [{"id":"learn","cron_expr":"30 0 * * *"}]
+
+===== 8. CURRENT SKILL BLOCK (you will REPLACE this entirely) =====
+
+<<<SKILL
+(empty)
+SKILL>>>
+
+===== 9. WRITE THE NEW SKILL BLOCK =====
+
+Reply with ONLY the replacement skill block text — no preamble, no
+fences: a decision-time policy for the program, distilled from the
+evidence above. Cite evidence as counts and rates; drop rules the
+evidence no longer supports. The block is hard-truncated from the tail
+at 5000 tokens, so put what the program most needs first.

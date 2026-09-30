@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}One-time code — Broker Portal{% endblock %}
+{% block body %}
+<h2>Enter your one-time code</h2>
+<p class="muted">Step 2 of 2: the code was mailed to your ops inbox and is valid for {{ tcfg.code_valid_minutes | int }} minutes.</p>
+<form class="f" method="post" action="/login/code" id="code-form">
+  <input type="hidden" name="form_token" value="{{ form_token }}">
+  <label for="code">Code</label><input id="code" name="code" autocomplete="one-time-code" required>
+  <button type="submit" id="verify">Sign in</button>
+</form>
+{% endblock %}

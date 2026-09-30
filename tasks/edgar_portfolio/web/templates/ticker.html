@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}{{ ticker }} — Portfolio Sheet{% endblock %}
+{% block body %}
+<p><a href="/portfolio/">← Holdings</a></p>
+<h2>{{ ticker }} <span class="muted">{{ holding.name }} · CIK {{ holding.cik }}</span></h2>
+<p>Position: <strong>{{ holding.shares }}</strong> shares · status <strong class="{{ 'sold' if holding.status == 'sold' else '' }}">{{ holding.status }}</strong>{% if holding.since %} <span class="muted">since {{ holding.since | fmt('ET') }}</span>{% endif %}</p>
+
+<h3>Filing records</h3>
+{% if records %}
+<table id="records">
+<tr><th>Accession</th><th>Form</th><th>Accepted (UTC)</th><th>FY</th><th>FP</th><th>Revenue (USD)</th><th>Diluted EPS</th><th>Note</th><th>Recorded</th><th></th></tr>
+{% for r in records %}
+<tr>
+  <td>{{ r.accession }}</td><td>{{ r.form }}</td><td>{{ r.accepted_at }}</td>
+  <td>{{ r.fy if r.fy is not none else '' }}</td><td>{{ r.fp or '' }}</td>
+  <td>{{ '%.0f' | format(r.revenue_usd) if r.revenue_usd is not none else '' }}</td>
+  <td>{{ '%.2f' | format(r.eps_diluted) if r.eps_diluted is not none else '' }}</td>
+  <td>{{ r.note }}</td>
+  <td class="muted">{{ r.updated_at | iso }} (v{{ r.version }})</td>
+  <td><a href="/portfolio/{{ ticker }}?accession={{ r.accession }}">edit</a></td>
+</tr>
+{% endfor %}
+</table>
+{% else %}
+<p class="muted">No filing recorded for {{ ticker }} yet.</p>
+{% endif %}
+
+{% if saved %}<div class="ok">Saved record {{ saved }} for {{ ticker }}.</div>{% endif %}
+{% if error %}<div class="error">Not saved: {{ error }}</div>{% endif %}
+
+<h3>{{ 'Update' if values.get('accession') else 'Record' }} a filing</h3>
+<form class="record" method="post" action="/portfolio/{{ ticker }}" id="filing-form">
+  <input type="hidden" name="form_token" value="{{ form_token }}">
+  <input type="hidden" name="version" value="{{ version }}">
+  <label for="accession">Accession number (e.g. 0000320193-26-000013)</label>
+  <input id="accession" name="accession" value="{{ values.get('accession', '') }}" required>
+  <label for="form">Form</label>
+  <select id="form" name="form">
+    {% for f in forms %}<option value="{{ f }}" {{ 'selected' if values.get('form') == f else '' }}>{{ f }}</option>{% endfor %}
+  </select>
+  <label for="accepted_at">Acceptance time, UTC (e.g. 2026-04-30T20:30:41Z)</label>
+  <input id="accepted_at" name="accepted_at" value="{{ values.get('accepted_at', '') }}" required>
+  <label for="fy">Fiscal year (periodic reports)</label>
+  <input id="fy" name="fy" value="{{ values.get('fy', '') if values.get('fy') is not none else '' }}">
+  <label for="fp">Fiscal period</label>
+  <select id="fp" name="fp">
+    <option value="" {{ 'selected' if not values.get('fp') else '' }}>—</option>
+    {% for p in periods %}<option value="{{ p }}" {{ 'selected' if values.get('fp') == p else '' }}>{{ p }}</option>{% endfor %}
+  </select>
+  <label for="revenue_usd">Revenue, USD (periodic reports; full amount, e.g. 95359000000)</label>
+  <input id="revenue_usd" name="revenue_usd" value="{{ values.get('revenue_usd', '') if values.get('revenue_usd') is not none else '' }}">
+  <label for="eps_diluted">Diluted EPS, USD (periodic reports; e.g. 1.65)</label>
+  <input id="eps_diluted" name="eps_diluted" value="{{ values.get('eps_diluted', '') if values.get('eps_diluted') is not none else '' }}">
+  <label for="note">Note (optional)</label>
+  <input id="note" name="note" value="{{ values.get('note', '') }}">
+  <button type="submit" id="save">Save record</button>
+</form>
+{% endblock %}

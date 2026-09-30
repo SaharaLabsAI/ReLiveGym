@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{% block title %}Portfolio Sheet{% endblock %}</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif;margin:0;background:#f6f7f9;color:#1b1f24}
+header{background:#1f3a5f;color:#fff;padding:10px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+header a{color:#fff;text-decoration:none;margin-right:14px}
+main{padding:20px;max-width:1100px}
+table{border-collapse:collapse;background:#fff;width:100%;margin:10px 0}
+th,td{border:1px solid #d6dbe1;padding:6px 8px;text-align:left;font-size:14px;vertical-align:top}
+th{background:#e9edf2}
+.muted{color:#5b6572;font-size:13px}
+.badge{display:inline-block;padding:2px 6px;border-radius:3px;font-size:12px;background:#dfe7f0}
+.badge.open{background:#d5f2dd}.badge.closed,.badge.pre-market{background:#f2e3d5}
+.error{background:#fde8e8;border:1px solid #e3a4a4;padding:8px;margin:8px 0}
+.ok{background:#e4f5e8;border:1px solid #9bd3a8;padding:8px;margin:8px 0}
+form.record label{display:block;margin:6px 0 2px;font-size:13px}
+form.record input,form.record select{padding:4px;font-size:14px;min-width:260px}
+form.record button{margin-top:10px;padding:6px 14px}
+.sold{color:#8a1c1c}
+</style>
+</head>
+<body>
+<header>
+  <div><strong>Fund Portfolio Sheet</strong> &nbsp;
+    <a href="/portfolio/">Holdings</a><a href="/portfolio/audit">Audit log</a></div>
+  <div class="muted" style="color:#dfe7f0">
+    As of <span id="asof">{{ now | fmt('ET') }}</span> ({{ now | iso }}) ·
+    NYSE <span class="badge {{ market.state }}">{{ market.state }}{% if market.reason %} ({{ market.reason }}){% endif %}</span>
+    · next open {{ market.next_open | fmt('ET') }}
+  </div>
+</header>
+<main>
+{% block body %}{% endblock %}
+</main>
+</body>
+</html>

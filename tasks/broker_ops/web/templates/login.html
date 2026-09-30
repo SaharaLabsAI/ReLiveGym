@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Sign in — Broker Portal{% endblock %}
+{% block body %}
+<h2>Sign in</h2>
+{% if not_applied %}<div class="warn">Your action was <strong>not applied</strong>.</div>{% endif %}
+{% if error %}<div class="error">{{ error }}</div>{% endif %}
+<p class="muted">Step 1 of 2: username and password. A one-time code will be sent to your mailbox.</p>
+<form class="f" method="post" action="/login" id="login-form">
+  <input type="hidden" name="form_token" value="{{ form_token }}">
+  <label for="username">Username</label><input id="username" name="username" autocomplete="username" required>
+  <label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required>
+  <button type="submit" id="login">Continue</button>
+</form>
+<p class="muted">Sessions end after {{ tcfg.session_idle_minutes | int }} idle minutes and at {{ '%02d:%02d' | format(tcfg.session_cutoff_utc[0], tcfg.session_cutoff_utc[1]) }} UTC daily. {{ tcfg.max_failed_logins }} failed attempts lock the account for {{ tcfg.lockout_hours | int }} hours.</p>
+{% endblock %}

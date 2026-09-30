@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Inbox — Ops Mail{% endblock %}
+{% block body %}
+<h2>Inbox</h2>
+<table id="inbox">
+<tr><th>Received (UTC)</th><th>Subject</th><th>Kind</th></tr>
+{% for m in messages %}
+<tr><td>{{ m.at }}</td><td><a href="/mail/{{ m.id }}">{{ m.subject }}</a></td><td>{{ m.kind }}</td></tr>
+{% endfor %}
+</table>
+{% endblock %}

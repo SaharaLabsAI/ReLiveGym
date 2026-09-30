@@ -1,0 +1,54 @@
+{
+ "schema_version": 1,
+ "created_at": "2026-08-04T21:44:33.587579+00:00",
+ "requested_sources": [
+  "coinbase",
+  "bitstamp",
+  "coingecko",
+  "okx"
+ ],
+ "history_months": 36,
+ "deep": true,
+ "sources": {
+  "coinbase": {
+   "status": "success",
+   "event_count": 900,
+   "with_start": 900,
+   "with_duration": 899,
+   "earliest": "2023-08-31T22:42:00+00:00",
+   "latest": "2026-08-03T20:07:04.096000+00:00",
+   "requests": 14,
+   "events_file": "events/coinbase.json"
+  },
+  "bitstamp": {
+   "status": "success",
+   "event_count": 74,
+   "with_start": 74,
+   "with_duration": 72,
+   "earliest": "2023-06-28T09:00:00+00:00",
+   "latest": "2026-08-10T11:00:00+00:00",
+   "requests": 14,
+   "events_file": "events/bitstamp.json"
+  },
+  "coingecko": {
+   "status": "success",
+   "event_count": 130,
+   "with_start": 130,
+   "with_duration": 129,
+   "earliest": "2021-02-22T06:33:14+00:00",
+   "latest": "2026-01-13T23:22:42+00:00",
+   "requests": 133,
+   "events_file": "events/coingecko.json"
+  },
+  "okx": {
+   "status": "success",
+   "event_count": 25,
+   "with_start": 25,
+   "with_duration": 13,
+   "earliest": "2020-04-01T16:00:00+00:00",
+   "latest": "2026-08-04T09:25:00+00:00",
+   "requests": 3,
+   "events_file": "events/okx.json"
+  }
+ }
+}

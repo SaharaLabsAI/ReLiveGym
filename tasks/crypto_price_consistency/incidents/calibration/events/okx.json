@@ -1,0 +1,422 @@
+[
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-apr-2-2020-issue-description-online-notice",
+  "title": "issue description online notice",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2020-04-01T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/apr-2-2020-issue-description-online-notice",
+  "raw_timestamp": "/en-us/help/apr-2-2020-issue-description-online-notice",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-jan-11-2021-perpetual-swap-system-failure-report",
+  "title": "perpetual swap system failure report",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2021-01-10T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/jan-11-2021-perpetual-swap-system-failure-report",
+  "raw_timestamp": "/en-us/help/jan-11-2021-perpetual-swap-system-failure-report",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-jan-12-2021-perpetual-swap-system-failure-report",
+  "title": "perpetual swap system failure report",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2021-01-11T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/jan-12-2021-perpetual-swap-system-failure-report",
+  "raw_timestamp": "/en-us/help/jan-12-2021-perpetual-swap-system-failure-report",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-jan-29-2021-trading-service-failure-report",
+  "title": "trading service failure report",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2021-01-28T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/jan-29-2021-trading-service-failure-report",
+  "raw_timestamp": "/en-us/help/jan-29-2021-trading-service-failure-report",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-feb-10-2021-trading-service-failure-report",
+  "title": "trading service failure report",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2021-02-09T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/feb-10-2021-trading-service-failure-report",
+  "raw_timestamp": "/en-us/help/feb-10-2021-trading-service-failure-report",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-feb-22-2021-spot-margin-system-service-failure-report",
+  "title": "spot margin system service failure report",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2021-02-21T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/feb-22-2021-spot-margin-system-service-failure-report",
+  "raw_timestamp": "/en-us/help/feb-22-2021-spot-margin-system-service-failure-report",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-mar-10-2021-spot-margin-system-service-failure-report",
+  "title": "spot margin system service failure report",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2021-03-09T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/mar-10-2021-spot-margin-system-service-failure-report",
+  "raw_timestamp": "/en-us/help/mar-10-2021-spot-margin-system-service-failure-report",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-mar-26-2021-spot-margin-system-service-failure-report",
+  "title": "spot margin system service failure report",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2021-03-25T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/mar-26-2021-spot-margin-system-service-failure-report",
+  "raw_timestamp": "/en-us/help/mar-26-2021-spot-margin-system-service-failure-report",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-mar-17-2023-trading-service-failure-report",
+  "title": "trading service failure report",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2023-03-16T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/mar-17-2023-trading-service-failure-report",
+  "raw_timestamp": "/en-us/help/mar-17-2023-trading-service-failure-report",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-aug-14-2023-trading-service-failure-report",
+  "title": "trading service failure report",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2023-08-13T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/aug-14-2023-trading-service-failure-report",
+  "raw_timestamp": "/en-us/help/aug-14-2023-trading-service-failure-report",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_html",
+  "event_id": "okx-page-2023-08-14T06:14:00+00:00",
+  "title": "Aug 14, 2023 trading service issue updates",
+  "impact": "unknown",
+  "scheduled": null,
+  "started_at": "2023-08-14T06:14:00+00:00",
+  "ended_at": "2023-08-14T06:36:00+00:00",
+  "duration_minutes": 22.0,
+  "url": "https://www.okx.com/en-us/status",
+  "raw_timestamp": "Aug 14, 2023, 2:14 PM ~ 2:36 PM",
+  "extra": {
+   "status": null
+  }
+ },
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-sep-13-2023-trading-service-failure-report",
+  "title": "trading service failure report",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2023-09-12T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/sep-13-2023-trading-service-failure-report",
+  "raw_timestamp": "/en-us/help/sep-13-2023-trading-service-failure-report",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_html",
+  "event_id": "okx-page-2023-09-13T07:38:00+00:00",
+  "title": "Sep 13, 2023 trading service issue updates",
+  "impact": "unknown",
+  "scheduled": null,
+  "started_at": "2023-09-13T07:38:00+00:00",
+  "ended_at": "2023-09-13T07:43:00+00:00",
+  "duration_minutes": 5.0,
+  "url": "https://www.okx.com/en-us/status",
+  "raw_timestamp": "Sep 13, 2023, 3:38 PM ~ 3:43 PM",
+  "extra": {
+   "status": null
+  }
+ },
+ {
+  "source": "okx",
+  "method": "postmortem_slug",
+  "event_id": "okx-help-mar-27-2024-rest-api-service-issues",
+  "title": "rest api service issues",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2024-03-26T16:00:00+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://www.okx.com/en-us/help/mar-27-2024-rest-api-service-issues",
+  "raw_timestamp": "/en-us/help/mar-27-2024-rest-api-service-issues",
+  "extra": {
+   "date_only": true
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_html",
+  "event_id": "okx-page-2024-03-27T11:38:00+00:00",
+  "title": "Mar 27, 2024 trading service issue updates",
+  "impact": "unknown",
+  "scheduled": null,
+  "started_at": "2024-03-27T11:38:00+00:00",
+  "ended_at": "2024-03-27T14:09:00+00:00",
+  "duration_minutes": 151.0,
+  "url": "https://www.okx.com/en-us/status",
+  "raw_timestamp": "Mar 27, 2024, 7:38 PM ~ 10:09 PM",
+  "extra": {
+   "status": null
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_api",
+  "event_id": "okx-api-1779354000000-unified",
+  "title": "Trailing Stop Scheduled Maintenance ",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-05-21T09:00:00+00:00",
+  "ended_at": "2026-05-21T09:20:00+00:00",
+  "duration_minutes": 20.0,
+  "url": null,
+  "raw_timestamp": null,
+  "extra": {
+   "serviceType": "99",
+   "system": "unified",
+   "maintType": "1"
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_api",
+  "event_id": "okx-api-1779955800000-unified",
+  "title": "Copy Trading Maintenance ",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-05-28T08:10:00+00:00",
+  "ended_at": "2026-05-28T08:30:00+00:00",
+  "duration_minutes": 20.0,
+  "url": null,
+  "raw_timestamp": null,
+  "extra": {
+   "serviceType": "99",
+   "system": "unified",
+   "maintType": "1"
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_api",
+  "event_id": "okx-api-1781770200000-unified",
+  "title": "Copy trading system scheduled maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-06-18T08:10:00+00:00",
+  "ended_at": "2026-06-18T08:30:00+00:00",
+  "duration_minutes": 20.0,
+  "url": null,
+  "raw_timestamp": null,
+  "extra": {
+   "serviceType": "11",
+   "system": "unified",
+   "maintType": "1"
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_api",
+  "event_id": "okx-api-1783416600000-unified",
+  "title": "Private WebSocket channel temporary maintenance",
+  "impact": "unscheduled",
+  "scheduled": false,
+  "started_at": "2026-07-07T09:30:00+00:00",
+  "ended_at": "2026-07-07T11:02:00+00:00",
+  "duration_minutes": 92.0,
+  "url": null,
+  "raw_timestamp": null,
+  "extra": {
+   "serviceType": "99",
+   "system": "unified",
+   "maintType": "2"
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_api",
+  "event_id": "okx-api-1784016000000-unified",
+  "title": "Copy trading system scheduled maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-07-14T08:00:00+00:00",
+  "ended_at": "2026-07-14T08:20:00+00:00",
+  "duration_minutes": 20.0,
+  "url": null,
+  "raw_timestamp": null,
+  "extra": {
+   "serviceType": "11",
+   "system": "unified",
+   "maintType": "1"
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_api",
+  "event_id": "okx-api-1785398400000-unified",
+  "title": "Copy trading system scheduled maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-07-30T08:00:00+00:00",
+  "ended_at": "2026-07-30T08:20:00+00:00",
+  "duration_minutes": 20.0,
+  "url": null,
+  "raw_timestamp": null,
+  "extra": {
+   "serviceType": "11",
+   "system": "unified",
+   "maintType": "1"
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_api",
+  "event_id": "okx-api-1785737400000-unified",
+  "title": "Copy trading system scheduled maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-08-03T06:10:00+00:00",
+  "ended_at": "2026-08-03T09:00:00+00:00",
+  "duration_minutes": 170.0,
+  "url": null,
+  "raw_timestamp": null,
+  "extra": {
+   "serviceType": "11",
+   "system": "unified",
+   "maintType": "1"
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_api",
+  "event_id": "okx-api-1785834600000-unified",
+  "title": "Trading Server Migration (Overall)",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-08-04T09:10:00+00:00",
+  "ended_at": "2026-08-04T09:35:00+00:00",
+  "duration_minutes": 25.0,
+  "url": null,
+  "raw_timestamp": null,
+  "extra": {
+   "serviceType": "99",
+   "system": "unified",
+   "maintType": "1"
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_api",
+  "event_id": "okx-api-1785834600000-unified",
+  "title": "Trading Server Migration - Phase 1",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-08-04T09:10:00+00:00",
+  "ended_at": "2026-08-04T09:20:00+00:00",
+  "duration_minutes": 10.0,
+  "url": null,
+  "raw_timestamp": null,
+  "extra": {
+   "serviceType": "99",
+   "system": "unified",
+   "maintType": "1"
+  }
+ },
+ {
+  "source": "okx",
+  "method": "status_api",
+  "event_id": "okx-api-1785835500000-unified",
+  "title": "Trading Server Migration - Phase 2",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-08-04T09:25:00+00:00",
+  "ended_at": "2026-08-04T09:35:00+00:00",
+  "duration_minutes": 10.0,
+  "url": null,
+  "raw_timestamp": null,
+  "extra": {
+   "serviceType": "99",
+   "system": "unified",
+   "maintType": "1"
+  }
+ }
+]

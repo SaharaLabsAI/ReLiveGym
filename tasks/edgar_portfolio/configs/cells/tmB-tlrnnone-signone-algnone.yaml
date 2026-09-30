@@ -1,0 +1,55 @@
+run_id: edgar-tmB-tlrnnone-signone-algnone
+window_id: edgar-2026q1season
+cell:
+  tm: B
+  tlrn: none
+  sig: none
+  alg: none
+task:
+  name: edgar_portfolio
+  portal_access: browser
+  holdings:
+    AAPL: 200
+    MSFT: 3000
+    GOOGL: 3700
+    AMZN: 1600
+    META: 2500
+    NVDA: 2800
+    TSLA: 2000
+    JPM: 2000
+    V: 3700
+    MA: 1500
+    UNH: 2700
+    JNJ: 3100
+    PG: 200
+    HD: 500
+    KO: 1800
+    PEP: 2300
+    MRK: 2700
+    ABBV: 3300
+    CSCO: 3700
+    CRM: 500
+    NFLX: 3900
+    AMD: 800
+    INTC: 2200
+    QCOM: 1300
+    TXN: 1200
+    IBM: 3000
+    GS: 1000
+    MS: 200
+    BAC: 1700
+    WFC: 200
+    ORCL: 1000
+    ACN: 900
+    ADBE: 3800
+  blotter:
+    - {at: 2026-04-10T14:00:00Z, ticker: PEP, action: sell}
+    - {at: 2026-04-20T15:00:00Z, ticker: DIS, action: buy, shares: 800}
+    - {at: 2026-04-24T14:30:00Z, ticker: CAT, action: buy, shares: 300}
+    - {at: 2026-05-03T13:00:00Z, ticker: MS, action: sell}
+sim_start: 2026-04-01T00:00:00Z
+sim_end: 2026-06-01T00:00:00Z
+budget_usd: 20.0
+agent:
+  scaffold: react
+seed: 0

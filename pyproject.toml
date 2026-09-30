@@ -1,0 +1,36 @@
+[project]
+name = "longlived-agents-benchmark"
+version = "0.1.0"
+description = "Replayed-reality benchmark and harness for long-lived agents: simulated environment, trigger mechanisms, task worlds and scorers"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "starlette",
+    "httpx",
+    "croniter",
+    "pydantic>=2",
+    "pyyaml",
+    "python-dotenv",
+    "litellm",
+    "tiktoken",     # learned-block token cap / transcript compaction
+    "mcp",          # episode mode: external agent apps act through an MCP bridge
+    "jinja2",       # web tasks: server-rendered pages (harness/web.py)
+    "tantivy",      # BM25 news index (breakout_news_pm, forecast_portfolio, resolution_detect)
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+# data curation only (DATA.md); nothing at run time imports these
+data = ["requests", "pandas", "pyarrow", "duckdb", "numpy"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+# default run = fast tests only; the rest on demand:
+#   pytest -m slow      pytest -m anchor      pytest -m "slow or anchor or not slow"
+addopts = "-m 'not anchor and not slow'"
+markers = [
+    "anchor: slow end-to-end calibration anchor runs (~2 min)",
+    "slow: e2e over many process firings (> ~8 s); deselected by default",
+]

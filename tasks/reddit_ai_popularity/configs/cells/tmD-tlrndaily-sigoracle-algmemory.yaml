@@ -1,0 +1,21 @@
+run_id: reddit-tmD-tlrndaily-sigoracle-algmemory
+window_id: reddit-2026m04
+cell:
+  tm: D
+  tlrn: daily
+  sig: oracle
+  alg: memory
+task:
+  name: reddit_ai_popularity
+  history_days: 7
+  decay_hours: 6
+  daily_cap: 10
+  page_size: 50
+  data_dir: tasks/reddit_ai_popularity/data/built_min0  # full build; month window (same as configs/month_cells)
+  tail_min_desc: 50
+sim_start: 2026-04-01T00:00:00Z
+sim_end: 2026-05-01T00:00:00Z
+budget_usd: 20.0
+agent:
+  scaffold: task:cron_react
+seed: 0

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Orders — Broker Portal{% endblock %}
+{% block body %}
+<h2>Orders</h2>
+<p class="muted">The PM's book, entered by the desk algorithm. Read-only: fills are mailed to the ops inbox.</p>
+<table id="orders">
+<tr><th>Id</th><th>Symbol</th><th>Side</th><th>Type</th><th>Qty</th><th>Price</th><th>Status</th><th>Placed</th><th>Filled</th><th>Protective stop</th></tr>
+{% for o in orders %}
+<tr><td>{{ o.id }}</td><td>{{ o.symbol }}</td><td>{{ o.side }}</td><td>{{ o.type }}</td><td>{{ '%g' | format(o.qty) }}</td><td>{{ '%.2f' | format(o.price) }}</td><td>{{ o.status }}</td><td class="muted">{{ o.placed_at }}</td><td class="muted">{{ o.filled_at if o.filled_at is defined else '' }}</td>
+<td>{% if o.status == 'filled' %}{% if o.id in stops %}registered {{ stops[o.id].registered_at }}{% else %}<a href="/risk?order_id={{ o.id }}">register</a>{% endif %}{% endif %}</td></tr>
+{% endfor %}
+</table>
+{% endblock %}

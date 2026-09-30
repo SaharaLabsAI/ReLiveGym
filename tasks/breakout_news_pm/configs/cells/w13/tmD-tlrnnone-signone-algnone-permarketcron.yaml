@@ -1,0 +1,42 @@
+run_id: bnpm-w13-tmD-tlrnnone-signone-algnone-permarketcron
+window_id: bnpm-2026w13
+cell:
+  tm: D
+  tlrn: none
+  sig: none
+  alg: none
+task:
+  name: breakout_news_pm
+  markets:
+  - market_id: '1487673'
+    start: '2026-03-28T00:00:00Z'
+    end: '2026-04-24T00:00:00Z'
+  - market_id: '1567747'
+    start: '2026-03-28T00:00:00Z'
+    end: '2026-04-24T00:00:00Z'
+  - market_id: '1388704'
+    start: '2026-03-28T00:00:00Z'
+    end: '2026-04-24T00:00:00Z'
+  - market_id: '680950'
+    start: '2026-03-28T00:00:00Z'
+    end: '2026-04-24T00:00:00Z'
+  - market_id: '1329554'
+    start: '2026-03-28T00:00:00Z'
+    end: '2026-04-24T00:00:00Z'
+  - market_id: '996893'
+    start: '2026-03-28T00:00:00Z'
+    end: '2026-04-24T00:00:00Z'
+  - market_id: '1450859'
+    start: '2026-03-28T00:00:00Z'
+    end: '2026-04-24T00:00:00Z'
+  - market_id: '637004'
+    start: '2026-03-28T00:00:00Z'
+    end: '2026-04-24T00:00:00Z'
+sim_start: '2026-03-28T00:00:00Z'
+sim_end: '2026-04-24T00:00:00Z'
+budget_usd: 70.0
+domain_budgets:
+  llm: 20.0
+agent:
+  scaffold: task:per_market_cron
+seed: 0

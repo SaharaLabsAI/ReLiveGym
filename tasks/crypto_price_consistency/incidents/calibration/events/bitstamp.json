@@ -1,0 +1,1661 @@
+[
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "7f7z1fx7wj3d",
+  "title": "Scheduled maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2023-06-28T09:00:00+00:00",
+  "ended_at": "2023-06-28T10:00:00+00:00",
+  "duration_minutes": 60.0,
+  "url": "https://stspg.io/403y1896xmrh",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "nv7y7p3ctxzm",
+  "title": "Issues with ETH deposits",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-08-24T10:32:45.631000+00:00",
+  "ended_at": "2023-08-24T13:43:40.023000+00:00",
+  "duration_minutes": 190.91,
+  "url": "https://stspg.io/7kr3xhmw508h",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ETH & ERC20"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "72bfr74t8jvt",
+  "title": "Trading has been halted for XRP pairs",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2023-10-09T14:25:57.863000+00:00",
+  "ended_at": "2023-10-09T18:26:43.204000+00:00",
+  "duration_minutes": 240.76,
+  "url": "https://stspg.io/t9rqwmf3zgn4",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Trading"
+   ],
+   "update_count": 6
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "7j20w64kqwcz",
+  "title": "Issues with ADA withdrawals",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-10-31T10:05:03.303000+00:00",
+  "ended_at": "2023-10-31T12:02:08.109000+00:00",
+  "duration_minutes": 117.08,
+  "url": "https://stspg.io/hyxf3gkw775n",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ADA"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "qbmdgchz5cr0",
+  "title": "Issue with deposits",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2024-01-22T19:21:41.291000+00:00",
+  "ended_at": "2024-01-22T20:56:51.582000+00:00",
+  "duration_minutes": 95.17,
+  "url": "https://stspg.io/09np8lmp419s",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ADA",
+    "ALGO",
+    "AVAX",
+    "BCH",
+    "BTC",
+    "DOGE",
+    "DOT",
+    "ETH & ERC20",
+    "FLR",
+    "HBAR",
+    "LTC",
+    "NEAR",
+    "SGB",
+    "SOL & SPL tokens",
+    "SUI",
+    "XLM",
+    "XRP"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "5c1nwf4nkw5c",
+  "title": "Issues with Solana withdrawals",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2024-02-07T11:56:54.176000+00:00",
+  "ended_at": "2024-02-07T12:15:50.619000+00:00",
+  "duration_minutes": 18.94,
+  "url": "https://stspg.io/yqd82tkf3nw1",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "SOL & SPL tokens"
+   ],
+   "update_count": 2
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "mts0mpmjh4qz",
+  "title": "Issues with trading",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2024-02-18T17:25:40.346000+00:00",
+  "ended_at": "2024-02-18T17:48:42.461000+00:00",
+  "duration_minutes": 23.04,
+  "url": "https://stspg.io/5ht7cvt2ch4l",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Trading"
+   ],
+   "update_count": 2
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "6km82v4mxqhy",
+  "title": "Issues with ETH and ERC20 withdrawals",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2024-03-02T20:07:58.574000+00:00",
+  "ended_at": "2024-03-02T22:40:58.857000+00:00",
+  "duration_minutes": 153.0,
+  "url": "https://stspg.io/k1bwdg8k0yky",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ETH & ERC20"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "tzbcy69sw272",
+  "title": "Issues with ETH and ERC20 withdrawals",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2024-03-07T20:24:03.687000+00:00",
+  "ended_at": "2024-03-07T22:47:48.188000+00:00",
+  "duration_minutes": 143.74,
+  "url": "https://stspg.io/fwymnnsgpkzj",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ETH & ERC20"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "c6d8wh95cjr6",
+  "title": "Issues with SOL, NEAR, DOT, ALGO withdrawals",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2024-03-14T19:02:22.107000+00:00",
+  "ended_at": "2024-03-14T20:47:25.862000+00:00",
+  "duration_minutes": 105.06,
+  "url": "https://stspg.io/1svqyfg65ttq",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ALGO",
+    "DOT",
+    "NEAR",
+    "SOL & SPL tokens"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "c9wwk2kkcddk",
+  "title": "Issue with ETH and ERC20 deposits",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2024-03-27T10:33:08+00:00",
+  "ended_at": "2024-03-27T12:28:16.023000+00:00",
+  "duration_minutes": 115.13,
+  "url": "https://stspg.io/d00pqknr1t49",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ETH & ERC20"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "lg3c9c7c3cq4",
+  "title": "Trading halted",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2024-03-29T10:27:42.465000+00:00",
+  "ended_at": "2024-03-29T11:13:34.020000+00:00",
+  "duration_minutes": 45.86,
+  "url": "https://stspg.io/lv6jfk57vc1x",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Trading"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "9pjqm5mfkwcq",
+  "title": "Scheduled maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2024-04-07T08:00:00+00:00",
+  "ended_at": "2024-04-07T09:13:00+00:00",
+  "duration_minutes": 73.0,
+  "url": "https://stspg.io/bpjx19yjxtlf",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "wj2smwdl4fx4",
+  "title": "Issues with HBAR withdrawals",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2024-04-08T09:11:48.658000+00:00",
+  "ended_at": "2024-04-08T11:52:53.711000+00:00",
+  "duration_minutes": 161.08,
+  "url": "https://stspg.io/sncm6jcbpj3z",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "HBAR"
+   ],
+   "update_count": 2
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "7zszjkfsbd9q",
+  "title": "Trading has been halted for all markets",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2024-04-15T06:12:34.330000+00:00",
+  "ended_at": "2024-04-15T06:35:54.401000+00:00",
+  "duration_minutes": 23.33,
+  "url": "https://stspg.io/gp89l1376zqn",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Trading"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "mnp7xz3xqph3",
+  "title": "Issues with broadcasting market data",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2024-05-17T09:13:00+00:00",
+  "ended_at": "2024-05-17T09:13:00+00:00",
+  "duration_minutes": 0.0,
+  "url": "https://stspg.io/m85prbw12k0g",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [],
+   "update_count": 1
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "4jh49tr5zv9z",
+  "title": "Issues with Website",
+  "impact": "none",
+  "scheduled": false,
+  "started_at": "2024-07-03T11:16:32.851000+00:00",
+  "ended_at": "2024-07-03T11:32:15.647000+00:00",
+  "duration_minutes": 15.71,
+  "url": "https://stspg.io/h7kb8k6wx1gw",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Web"
+   ],
+   "update_count": 2
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "y6s8d8sck9v4",
+  "title": "Issues with crypto withdrawals",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2024-07-10T07:47:39.747000+00:00",
+  "ended_at": "2024-07-10T08:55:50.139000+00:00",
+  "duration_minutes": 68.17,
+  "url": "https://stspg.io/0tsxbhd9x2z1",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "BTC",
+    "ETH & ERC20",
+    "HBAR",
+    "NEAR",
+    "SOL & SPL tokens"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "79m203fmsngn",
+  "title": "Issues with REST API",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2024-07-31T05:43:15.803000+00:00",
+  "ended_at": "2024-07-31T06:01:27.412000+00:00",
+  "duration_minutes": 18.19,
+  "url": "https://stspg.io/39hsp75p5t27",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "FIX"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "55td9hbgy7pf",
+  "title": "Issues with SOL withdrawals",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2024-08-01T09:34:32.012000+00:00",
+  "ended_at": "2024-08-01T17:32:05.785000+00:00",
+  "duration_minutes": 477.56,
+  "url": "https://stspg.io/ppw9s1mj3tb9",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "SOL & SPL tokens"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "pg3ggypmnzrj",
+  "title": "Issues with Website and API access",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2024-08-06T07:51:13.709000+00:00",
+  "ended_at": "2024-08-06T08:14:42.155000+00:00",
+  "duration_minutes": 23.47,
+  "url": "https://stspg.io/zlpzdls100bz",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Web",
+    "FIX"
+   ],
+   "update_count": 5
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "xv5vbpzshdj4",
+  "title": "Issues with Website",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2024-09-12T14:48:23.389000+00:00",
+  "ended_at": "2024-09-12T15:56:06.910000+00:00",
+  "duration_minutes": 67.73,
+  "url": "https://stspg.io/jtw3zdj6dn3l",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Web"
+   ],
+   "update_count": 2
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "5hfdz08tx7w9",
+  "title": "Issues with FIX API",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2024-09-30T22:08:02.272000+00:00",
+  "ended_at": "2024-09-30T23:00:14.912000+00:00",
+  "duration_minutes": 52.21,
+  "url": "https://stspg.io/vr1rksq1qw7f",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "FIX"
+   ],
+   "update_count": 2
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "0mwd22jql8my",
+  "title": "Deposits, withdrawals and trading have been halted for TRUF",
+  "impact": "none",
+  "scheduled": false,
+  "started_at": "2024-10-30T16:04:55.560000+00:00",
+  "ended_at": "2025-03-14T09:50:30.060000+00:00",
+  "duration_minutes": 194025.58,
+  "url": "https://stspg.io/d0n5fx3028n8",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "k4dd2h874lrh",
+  "title": "Scheduled maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2024-11-05T10:00:00+00:00",
+  "ended_at": "2024-11-05T10:05:00+00:00",
+  "duration_minutes": 5.0,
+  "url": "https://stspg.io/lwljg689kpy0",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "zkbhqy486sk7",
+  "title": "Scheduled Short Maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2024-11-24T13:25:00+00:00",
+  "ended_at": "2024-11-24T14:25:00+00:00",
+  "duration_minutes": 60.0,
+  "url": "https://stspg.io/xkw8yqf68tvv",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "l8rl1vmrgy2y",
+  "title": "Scheduled maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2024-11-27T04:00:00+00:00",
+  "ended_at": "2024-11-27T05:00:00+00:00",
+  "duration_minutes": 60.0,
+  "url": "https://stspg.io/9zccf881qlb4",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "h1b5lh5l9f6v",
+  "title": "Issues with platform",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2024-12-07T02:07:39.450000+00:00",
+  "ended_at": "2024-12-07T04:51:28.730000+00:00",
+  "duration_minutes": 163.82,
+  "url": "https://stspg.io/hb1l50lj41hs",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Web",
+    "ADA",
+    "ADA",
+    "FIX",
+    "ALGO",
+    "ALGO",
+    "AVAX",
+    "AVAX",
+    "REST",
+    "Mobile app",
+    "BCH",
+    "BCH",
+    "Websocket",
+    "Trading",
+    "BTC",
+    "BTC",
+    "DOGE",
+    "DOGE",
+    "DOT",
+    "DOT",
+    "ETH & ERC20",
+    "ETH & ERC20",
+    "FLR",
+    "FLR",
+    "HBAR",
+    "HBAR",
+    "LTC",
+    "LTC",
+    "NEAR",
+    "NEAR",
+    "SGB",
+    "SGB",
+    "SOL & SPL tokens",
+    "SOL & SPL tokens",
+    "SUI",
+    "SUI",
+    "XLM",
+    "XLM",
+    "XRP",
+    "XRP",
+    "CSPR",
+    "CSPR",
+    "EGLD",
+    "EGLD",
+    "ICP",
+    "ICP",
+    "XDC",
+    "XDC"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "59sfzjjbngl6",
+  "title": "Maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2024-12-11T10:00:00+00:00",
+  "ended_at": "2024-12-11T12:30:00+00:00",
+  "duration_minutes": 150.0,
+  "url": "https://stspg.io/1lp434wxx7g5",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "yjyydbrlfht1",
+  "title": "Scheduled maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2025-03-23T08:30:00+00:00",
+  "ended_at": "2025-03-23T10:30:00+00:00",
+  "duration_minutes": 120.0,
+  "url": "https://stspg.io/brdxp6qpw7py",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "vsrzpscvgxzz",
+  "title": "Issues with XRP withdrawals",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2025-05-05T05:27:15.271000+00:00",
+  "ended_at": "2025-05-05T08:34:09.151000+00:00",
+  "duration_minutes": 186.9,
+  "url": "https://stspg.io/pmqmzn25lzct",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "XRP"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "tk9jc99st0yh",
+  "title": "Issues with withdrawals on AVAX, DOT, DOGE, ETH, SOL and XLM networks.",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2025-05-09T11:58:38.715000+00:00",
+  "ended_at": "2025-05-09T17:50:26.758000+00:00",
+  "duration_minutes": 351.8,
+  "url": "https://stspg.io/sfr3kvjc2gq8",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "AVAX",
+    "DOGE",
+    "DOT",
+    "ETH & ERC20",
+    "SOL & SPL tokens",
+    "XLM"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "kzd5h1qydy2n",
+  "title": "Issues with BTC withdrawals",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2025-05-22T05:13:54.639000+00:00",
+  "ended_at": "2025-05-22T07:27:33.914000+00:00",
+  "duration_minutes": 133.65,
+  "url": "https://stspg.io/vzhm6j3pxb50",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "BTC"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "c3v6nm0d8v9v",
+  "title": "Scheduled maintenance",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2025-05-29T08:00:00+00:00",
+  "ended_at": "2025-05-29T08:05:00+00:00",
+  "duration_minutes": 5.0,
+  "url": "https://stspg.io/gx6dhll15cpk",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "59sd0171w6x0",
+  "title": "Issues with Website - Export of Activity history",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2025-06-09T17:14:01+00:00",
+  "ended_at": "2025-06-09T18:28:52.636000+00:00",
+  "duration_minutes": 74.86,
+  "url": "https://stspg.io/pxjqf6mkjjvs",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Web"
+   ],
+   "update_count": 2
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "43gs3k43n4g3",
+  "title": "Issues with Website and Mobile App",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2025-07-14T07:13:30.369000+00:00",
+  "ended_at": "2025-07-14T07:50:13.632000+00:00",
+  "duration_minutes": 36.72,
+  "url": "https://stspg.io/jgqj901qkd33",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Web",
+    "Mobile app"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "47st3wg9gm8j",
+  "title": "Degraded performance on Webapp, Mobile App and Trading",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2025-09-02T12:49:23.106000+00:00",
+  "ended_at": "2025-09-02T11:30:00+00:00",
+  "duration_minutes": null,
+  "url": "https://stspg.io/d7nfy0n9z202",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [],
+   "update_count": 1
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "8tr4n17crw41",
+  "title": "Delisting ADA/BTC, BCH/BTC, XLM/BTC, LINK/BTC and UNI/BTC trading pairs",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2025-09-12T07:00:00+00:00",
+  "ended_at": "2025-09-12T22:00:00+00:00",
+  "duration_minutes": 900.0,
+  "url": "https://stspg.io/03b1jvdc60w6",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "1qyytfx89tjz",
+  "title": "Issues with cancelling orders by client_order_ids",
+  "impact": "none",
+  "scheduled": false,
+  "started_at": "2025-09-12T11:59:09.975000+00:00",
+  "ended_at": "2025-09-12T08:15:00+00:00",
+  "duration_minutes": null,
+  "url": "https://stspg.io/306b91wwsl6b",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [],
+   "update_count": 1
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "5078j9rz8hd6",
+  "title": "ETH markets precision changes",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2025-09-28T04:00:00+00:00",
+  "ended_at": "2025-09-28T06:30:00+00:00",
+  "duration_minutes": 150.0,
+  "url": "https://stspg.io/qhy6fn0lhfn5",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "04xldp1kyrzc",
+  "title": "SGB delisting",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2025-10-13T08:00:00+00:00",
+  "ended_at": "2025-10-20T08:00:00+00:00",
+  "duration_minutes": 10080.0,
+  "url": "https://stspg.io/y7nnklcg447y",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "397phv7h9lsm",
+  "title": "Trading has been halted for all markets",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2025-10-17T12:27:11.537000+00:00",
+  "ended_at": "2025-10-17T13:19:02.235000+00:00",
+  "duration_minutes": 51.84,
+  "url": "https://stspg.io/gq6c6b6f7hdf",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Trading"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "q5t3l7cx3jql",
+  "title": "Issues with cryptocurrency withdrawals",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2025-10-21T09:28:28.157000+00:00",
+  "ended_at": "2025-10-21T13:05:08.994000+00:00",
+  "duration_minutes": 216.68,
+  "url": "https://stspg.io/bx62bt8cfffs",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ADA",
+    "ALGO",
+    "AVAX",
+    "BCH",
+    "BTC",
+    "DOGE",
+    "DOT",
+    "ETH & ERC20",
+    "FLR",
+    "HBAR",
+    "LTC",
+    "NEAR",
+    "SGB",
+    "SOL & SPL tokens",
+    "SUI",
+    "XLM",
+    "XRP",
+    "CSPR",
+    "EGLD",
+    "ICP",
+    "XDC"
+   ],
+   "update_count": 5
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "yh0g4qntcp6t",
+  "title": "Issue with cryptocurrency deposits",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2025-10-21T09:33:05.332000+00:00",
+  "ended_at": "2025-10-21T13:04:58.930000+00:00",
+  "duration_minutes": 211.89,
+  "url": "https://stspg.io/j00q36xkqgh9",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ADA",
+    "ALGO",
+    "AVAX",
+    "BCH",
+    "BTC",
+    "DOGE",
+    "DOT",
+    "ETH & ERC20",
+    "FLR",
+    "HBAR",
+    "LTC",
+    "NEAR",
+    "SGB",
+    "SOL & SPL tokens",
+    "SUI",
+    "XLM",
+    "XRP",
+    "CSPR",
+    "EGLD",
+    "ICP",
+    "XDC"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "qkhcznqqw15c",
+  "title": "Maintenance on select deposit and withdrawals services",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2025-11-01T12:00:00+00:00",
+  "ended_at": "2025-11-01T16:00:00+00:00",
+  "duration_minutes": 240.0,
+  "url": "https://stspg.io/s9n789b641z2",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "5079h5qmvt2t",
+  "title": "Maintenance on Polkadot network",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2025-11-04T07:00:00+00:00",
+  "ended_at": "2025-11-04T19:00:00+00:00",
+  "duration_minutes": 720.0,
+  "url": "https://stspg.io/ndkd22c0bq6v",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "36d0mrbqhvwp",
+  "title": "Issues with FIX API",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2025-11-13T16:54:31.252000+00:00",
+  "ended_at": "2025-11-13T18:27:26.557000+00:00",
+  "duration_minutes": 92.92,
+  "url": "https://stspg.io/bwpw3hzvqs5r",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "FIX"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "x8ll7z65lg5g",
+  "title": "Issues with perpetual market trading",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2025-11-21T07:58:15.723000+00:00",
+  "ended_at": "2025-11-21T23:30:19.553000+00:00",
+  "duration_minutes": 932.06,
+  "url": "https://stspg.io/7jkgzhw4x20x",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Trading"
+   ],
+   "update_count": 8
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "5m67fbf7m9z3",
+  "title": "Issues with Website",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2025-11-27T17:05:01+00:00",
+  "ended_at": "2025-11-27T19:51:57.182000+00:00",
+  "duration_minutes": 166.94,
+  "url": "https://stspg.io/mwcd832mv5pn",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Web",
+    "REST"
+   ],
+   "update_count": 5
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "6ym2hv2248lw",
+  "title": "Issues with Websocket API",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2025-11-28T10:44:07.372000+00:00",
+  "ended_at": "2025-11-28T11:12:35.128000+00:00",
+  "duration_minutes": 28.46,
+  "url": "https://stspg.io/x0xk11gn9fwc",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Websocket"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "wf53m6gmgncb",
+  "title": "Scheduled maintenance on perpetual swaps trading",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2025-12-05T06:00:00+00:00",
+  "ended_at": "2025-12-05T06:30:00+00:00",
+  "duration_minutes": 30.0,
+  "url": "https://stspg.io/qsnsl9lqcs3b",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "1v0qjkttcj24",
+  "title": "Maintenance on select deposit and withdrawals services",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2025-12-10T07:00:00+00:00",
+  "ended_at": "2025-12-10T11:00:00+00:00",
+  "duration_minutes": 240.0,
+  "url": "https://stspg.io/rj1tkfcpg096",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "0tlgk15mbjx0",
+  "title": "Scheduled maintenance on perpetual futures trading",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2025-12-11T08:15:00+00:00",
+  "ended_at": "2025-12-11T08:45:00+00:00",
+  "duration_minutes": 30.0,
+  "url": "https://stspg.io/f9pzfsrnkj1k",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "t0mkhbgvmt5k",
+  "title": "Issue with all crypto deposits",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2025-12-23T09:36:34.623000+00:00",
+  "ended_at": "2025-12-23T12:04:35.036000+00:00",
+  "duration_minutes": 148.01,
+  "url": "https://stspg.io/377694r4pk4k",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ADA",
+    "ALGO",
+    "AVAX",
+    "BCH",
+    "BTC",
+    "DOGE",
+    "DOT",
+    "ETH & ERC20",
+    "FLR",
+    "HBAR",
+    "LTC",
+    "NEAR",
+    "SGB",
+    "SOL & SPL tokens",
+    "SUI",
+    "XLM",
+    "XRP",
+    "CSPR",
+    "EGLD",
+    "ICP",
+    "XDC"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "ws7l86lnjqb5",
+  "title": "Withdrawals and deposit temporarily halted",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2025-12-26T13:23:03.195000+00:00",
+  "ended_at": "2025-12-27T00:23:25.745000+00:00",
+  "duration_minutes": 660.38,
+  "url": "https://stspg.io/471h37xd6gsk",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ADA",
+    "ADA",
+    "ALGO",
+    "ALGO",
+    "AVAX",
+    "AVAX",
+    "BCH",
+    "BCH",
+    "BTC",
+    "BTC",
+    "DOGE",
+    "DOGE",
+    "DOT",
+    "DOT",
+    "ETH & ERC20",
+    "ETH & ERC20",
+    "FLR",
+    "FLR",
+    "HBAR",
+    "HBAR",
+    "LTC",
+    "LTC",
+    "NEAR",
+    "NEAR",
+    "SGB",
+    "SGB",
+    "SOL & SPL tokens",
+    "SOL & SPL tokens",
+    "SUI",
+    "SUI",
+    "XLM",
+    "XLM",
+    "XRP",
+    "XRP",
+    "CSPR",
+    "CSPR",
+    "EGLD",
+    "EGLD",
+    "ICP",
+    "ICP",
+    "XDC",
+    "XDC"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "wxd15rw0h2yq",
+  "title": "Issues with ETH and ERC20 deposits and withdrawals",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2026-01-30T08:13:17.527000+00:00",
+  "ended_at": "2026-01-30T09:07:36.449000+00:00",
+  "duration_minutes": 54.32,
+  "url": "https://stspg.io/x6c52cvgz6nz",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ETH & ERC20",
+    "ETH & ERC20"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "1wql4l62q5fy",
+  "title": "Scheduled delistings - Deposits",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-03-13T08:00:00+00:00",
+  "ended_at": "2026-03-13T09:00:00+00:00",
+  "duration_minutes": 60.0,
+  "url": "https://stspg.io/dc43k69r23h7",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "dzf49vpwlwlt",
+  "title": "Issues with email delivery",
+  "impact": "none",
+  "scheduled": false,
+  "started_at": "2026-03-16T13:56:00.989000+00:00",
+  "ended_at": "2026-03-17T16:00:24.682000+00:00",
+  "duration_minutes": 1564.39,
+  "url": "https://stspg.io/q1wv46nbr114",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Web",
+    "Mobile app"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "nky2lv9xykb0",
+  "title": "Scheduled delistings - Withdrawals",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-03-27T08:00:00+00:00",
+  "ended_at": "2026-03-27T10:00:00+00:00",
+  "duration_minutes": 120.0,
+  "url": "https://stspg.io/8mxpx348r21w",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "rqzczlks6z88",
+  "title": "Issue with Polkadot deposits",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2026-04-08T09:18:44.837000+00:00",
+  "ended_at": "2026-04-08T17:25:32.575000+00:00",
+  "duration_minutes": 486.8,
+  "url": "https://stspg.io/8trbtrqlh60c",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "DOT"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "cxnr5f1330pt",
+  "title": "Scheduled maintenance - Trading decimal precision changes",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-04-15T06:00:00+00:00",
+  "ended_at": "2026-04-15T06:20:00+00:00",
+  "duration_minutes": 20.0,
+  "url": "https://stspg.io/1s53wsbllq4w",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "4zzlnk0bpgt6",
+  "title": "Scheduled maintenance - Trading decimal precision changes",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-04-16T06:00:00+00:00",
+  "ended_at": "2026-04-16T06:30:00+00:00",
+  "duration_minutes": 30.0,
+  "url": "https://stspg.io/f5khm0w0mbby",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "bx39jx2tjscj",
+  "title": "Issues with all withdrawals and deposits",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2026-04-20T15:01:56.817000+00:00",
+  "ended_at": "2026-04-20T15:35:01.233000+00:00",
+  "duration_minutes": 33.07,
+  "url": "https://stspg.io/rmkw44rdf7pd",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ADA",
+    "ADA",
+    "ALGO",
+    "ALGO",
+    "AVAX",
+    "AVAX",
+    "BCH",
+    "BCH",
+    "BTC",
+    "BTC",
+    "DOGE",
+    "DOGE",
+    "DOT",
+    "DOT",
+    "ETH & ERC20",
+    "ETH & ERC20",
+    "FLR",
+    "FLR",
+    "HBAR",
+    "HBAR",
+    "LTC",
+    "LTC",
+    "NEAR",
+    "NEAR",
+    "SGB",
+    "SGB",
+    "SOL & SPL tokens",
+    "SOL & SPL tokens",
+    "SUI",
+    "SUI",
+    "XLM",
+    "XLM",
+    "XRP",
+    "XRP",
+    "CSPR",
+    "CSPR",
+    "EGLD",
+    "EGLD",
+    "ICP",
+    "ICP",
+    "XDC",
+    "XDC"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "m8kqw5sq523d",
+  "title": "Issues with crypto deposit and withdrawals",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2026-05-06T10:54:51.135000+00:00",
+  "ended_at": "2026-05-06T11:37:04.950000+00:00",
+  "duration_minutes": 42.23,
+  "url": "https://stspg.io/b691tp439h14",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ADA",
+    "ADA",
+    "ALGO",
+    "ALGO",
+    "AVAX",
+    "AVAX",
+    "BCH",
+    "BCH",
+    "BTC",
+    "BTC",
+    "DOGE",
+    "DOGE",
+    "DOT",
+    "DOT",
+    "ETH & ERC20",
+    "ETH & ERC20",
+    "FLR",
+    "FLR",
+    "HBAR",
+    "HBAR",
+    "LTC",
+    "LTC",
+    "NEAR",
+    "NEAR",
+    "SGB",
+    "SGB",
+    "SOL & SPL tokens",
+    "SOL & SPL tokens",
+    "SUI",
+    "SUI",
+    "XLM",
+    "XLM",
+    "XRP",
+    "XRP",
+    "CSPR",
+    "CSPR",
+    "EGLD",
+    "EGLD",
+    "ICP",
+    "ICP",
+    "XDC",
+    "XDC"
+   ],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "xkngwyzdhh72",
+  "title": "Issue with email delivery",
+  "impact": "none",
+  "scheduled": false,
+  "started_at": "2026-05-13T16:05:29.138000+00:00",
+  "ended_at": "2026-05-25T09:16:16.184000+00:00",
+  "duration_minutes": 16870.78,
+  "url": "https://stspg.io/6w5pg2511fr0",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [],
+   "update_count": 3
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "p0qc4rh7g8lh",
+  "title": "BTC markets \u2014 trading decimal precision update",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-05-20T06:02:00+00:00",
+  "ended_at": "2026-05-20T06:10:00+00:00",
+  "duration_minutes": 8.0,
+  "url": "https://stspg.io/g8yzzj0h4173",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "ynjvyplj9kpp",
+  "title": "Issues with SUI deposits and withdrawals",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2026-05-29T13:52:18.949000+00:00",
+  "ended_at": "2026-05-29T17:22:15.435000+00:00",
+  "duration_minutes": 209.94,
+  "url": "https://stspg.io/9x6rg26pxc3c",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "SUI",
+    "SUI"
+   ],
+   "update_count": 2
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "h3jth2dprgbf",
+  "title": "Issues with FLR withdrawals",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2026-06-03T08:09:08.130000+00:00",
+  "ended_at": "2026-06-03T09:00:54.594000+00:00",
+  "duration_minutes": 51.77,
+  "url": "https://stspg.io/lgf0d62vjyph",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "FLR"
+   ],
+   "update_count": 2
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "drn62pdkzjkz",
+  "title": "Issues with ETH withdrawals",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2026-06-10T13:12:51.011000+00:00",
+  "ended_at": "2026-06-10T13:19:18.734000+00:00",
+  "duration_minutes": 6.46,
+  "url": "https://stspg.io/n9yyph4c66bh",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ETH & ERC20"
+   ],
+   "update_count": 2
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "26t5kbhnwskx",
+  "title": "Scheduled maintenance - Trading decimal precision changes",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-06-16T06:00:00+00:00",
+  "ended_at": "2026-06-16T06:08:00+00:00",
+  "duration_minutes": 8.0,
+  "url": "https://stspg.io/vx8m800zbmt4",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "8cqmp47gq907",
+  "title": "Scheduled maintenance - Trading decimal precision changes",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-06-17T06:00:00+00:00",
+  "ended_at": "2026-06-17T06:18:00+00:00",
+  "duration_minutes": 18.0,
+  "url": "https://stspg.io/hwx81cy64fwc",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "completed"
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "2jdn5bw5r0dw",
+  "title": "Issues with crypto withdrawals",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2026-06-28T10:22:32.888000+00:00",
+  "ended_at": "2026-06-28T11:11:13.868000+00:00",
+  "duration_minutes": 48.68,
+  "url": "https://stspg.io/rnt0kcg3chvw",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "ADA",
+    "ALGO",
+    "AVAX",
+    "BCH",
+    "BTC",
+    "DOGE",
+    "DOT",
+    "ETH & ERC20",
+    "FLR",
+    "HBAR",
+    "LTC",
+    "NEAR",
+    "SGB",
+    "SOL & SPL tokens",
+    "SUI",
+    "XLM",
+    "XRP",
+    "CSPR",
+    "EGLD",
+    "ICP",
+    "XDC"
+   ],
+   "update_count": 2
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_api",
+  "event_id": "yxjtw20tncgx",
+  "title": "Issues with platform",
+  "impact": "critical",
+  "scheduled": false,
+  "started_at": "2026-08-03T12:07:12.948000+00:00",
+  "ended_at": "2026-08-03T12:44:43.491000+00:00",
+  "duration_minutes": 37.51,
+  "url": "https://stspg.io/80f9w9f1mbmh",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "resolved",
+   "components": [
+    "Web",
+    "Mobile app"
+   ],
+   "update_count": 4
+  }
+ },
+ {
+  "source": "bitstamp",
+  "method": "statuspage_maintenance",
+  "event_id": "rjnjylf6m81m",
+  "title": "Scheduled delisting \u2014 VEUR, VCHF, ZUSD, GYEN, DAI, WBTC",
+  "impact": "maintenance",
+  "scheduled": true,
+  "started_at": "2026-08-10T11:00:00+00:00",
+  "ended_at": "2026-08-11T13:00:00+00:00",
+  "duration_minutes": 1560.0,
+  "url": "https://stspg.io/nlwdwnm9yls5",
+  "raw_timestamp": null,
+  "extra": {
+   "status": "scheduled"
+  }
+ }
+]

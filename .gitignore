@@ -1,0 +1,28 @@
+.env
+.DS_STORE
+.DS_Store
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/
+# run artifacts
+runs/
+# built / raw task data (DATA.md); the build scripts and provenance notes are tracked
+tasks/*/data/*
+!tasks/*/data/README.md
+!tasks/*/data/*.py
+!tasks/breakout_news_pm/data/built/
+tasks/breakout_news_pm/data/built/*
+!tasks/breakout_news_pm/data/built/build_stats.json
+tasks/breakout_news_pm/market/raw/
+tasks/breakout_news_pm/news/corpus/
+tasks/breakout_news_pm/news/tantivy_index*/
+tasks/breakout_news_pm/news/ccnews/pubtime/
+tasks/breakout_news_pm/news/ccnews/census/
+tasks/breakout_news_pm/news/ccnews/shards/
+tasks/breakout_news_pm/labeling/out_*/
+tasks/breakout_news_pm/labeling/*.jsonl
+tasks/crypto_price_consistency/incidents/calibration/raw/
+.data_staging/
+# web episodes: the Playwright MCP checkout (README.md, web tasks)
+.tools/

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}{{ m.subject }} — Ops Mail{% endblock %}
+{% block body %}
+<p><a href="/mail/">← Inbox</a></p>
+<h2>{{ m.subject }}</h2>
+<p class="muted">Received {{ m.at }} · {{ m.kind }}</p>
+<pre id="body" style="white-space:pre-wrap;background:#fff;padding:10px;border:1px solid #d6dbe1">{{ m.body }}</pre>
+{% endblock %}

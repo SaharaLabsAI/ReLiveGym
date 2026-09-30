@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{% block title %}Broker Portal{% endblock %}</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif;margin:0;background:#f4f5f7;color:#1b1f24}
+header{background:#24343f;color:#fff;padding:10px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+header a{color:#fff;text-decoration:none;margin-right:12px}
+main{padding:20px;max-width:1000px}
+table{border-collapse:collapse;background:#fff;width:100%;margin:10px 0}
+th,td{border:1px solid #d6dbe1;padding:6px 8px;text-align:left;font-size:14px;vertical-align:top}
+th{background:#e9edf2}
+.muted{color:#5b6572;font-size:13px}
+.error{background:#fde8e8;border:1px solid #e3a4a4;padding:8px;margin:8px 0}
+.ok{background:#e4f5e8;border:1px solid #9bd3a8;padding:8px;margin:8px 0}
+.warn{background:#fff4d6;border:1px solid #e6c46a;padding:8px;margin:8px 0}
+form.f label{display:block;margin:6px 0 2px;font-size:13px}
+form.f input,form.f select{padding:4px;font-size:14px;min-width:220px}
+form.f button,form.inline button{padding:4px 10px}
+form.inline{display:inline}
+.neg{color:#8a1c1c}
+</style>
+</head>
+<body>
+<header>
+  <div><strong>{% if host == 'mail' %}Ops Mail{% else %}Broker Portal{% endif %}</strong> &nbsp;
+    {% if host == 'mail' %}<a href="/mail/">Inbox</a>{% else %}
+    <a href="/positions">Positions</a><a href="/orders">Orders</a><a href="/notices">Notices</a><a href="/risk">Risk desk</a>{% endif %}
+  </div>
+  <div class="muted" style="color:#dfe7f0">
+    {{ now | iso }} ({{ now | fmt('ET') }})
+    {% if host != 'mail' %} · {% if user %}signed in as <strong>{{ user }}</strong>
+      <form class="inline" method="post" action="/logout"><button type="submit" id="logout">Sign out</button></form>{% else %}not signed in{% endif %}{% endif %}
+  </div>
+</header>
+<main>
+{% block body %}{% endblock %}
+</main>
+</body>
+</html>

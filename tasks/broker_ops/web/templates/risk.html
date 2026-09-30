@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Risk desk — Broker Portal{% endblock %}
+{% block body %}
+<h2>Risk desk: protective stops</h2>
+{% if saved %}<div class="ok">Protective stop registered.</div>{% endif %}
+{% if error %}<div class="error">Not registered: {{ error }}</div>{% endif %}
+<h3>Fills without a protective stop</h3>
+{% if not pending %}<p class="muted">None.</p>{% else %}
+<table id="pending">
+<tr><th>Order</th><th>Symbol</th><th>Fill side</th><th>Qty</th><th>Fill price</th><th>Filled</th></tr>
+{% for o in pending %}
+<tr><td>{{ o.id }}</td><td>{{ o.symbol }}</td><td>{{ o.side }}</td><td>{{ '%g' | format(o.qty) }}</td><td>{{ '%.2f' | format(o.price) }}</td><td class="muted">{{ o.filled_at }}</td></tr>
+{% endfor %}
+</table>
+{% endif %}
+<h3>Register a protective stop</h3>
+<form class="f" method="post" action="/risk" id="stop-form">
+  <input type="hidden" name="form_token" value="{{ form_token }}">
+  <label for="order_id">For fill (order id)</label><input id="order_id" name="order_id" value="{{ prefill }}" required>
+  <label for="side">Stop side (opposite to the fill)</label><select id="side" name="side"><option value="sell">sell</option><option value="buy">buy</option></select>
+  <label for="qty">Quantity</label><input id="qty" name="qty" required>
+  <label for="trigger_price">Trigger price (USDT)</label><input id="trigger_price" name="trigger_price" required>
+  <button type="submit" id="register">Register stop</button>
+</form>
+<p class="muted">A sell stop triggers below the market, a buy stop above it. Marks now: {% for s, m in marks.items() %}{{ s }} {{ '%.2f' | format(m) }}{% if not loop.last %}, {% endif %}{% endfor %}. Instructions are held by the risk desk; they are not orders in the PM's book.</p>
+<h3>Registered</h3>
+<table id="stops">
+<tr><th>Order</th><th>Symbol</th><th>Side</th><th>Qty</th><th>Trigger</th><th>Registered</th></tr>
+{% for s in stops %}
+<tr><td>{{ s.id }}</td><td>{{ s.symbol }}</td><td>{{ s.side }}</td><td>{{ '%g' | format(s.qty) }}</td><td>{{ '%.2f' | format(s.trigger_price) }}</td><td class="muted">{{ s.registered_at }}</td></tr>
+{% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Audit log — Portfolio Sheet{% endblock %}
+{% block body %}
+<h2>Audit log</h2>
+<p class="muted">Newest first, last 200 entries. World entries are the desk's own trades.</p>
+<table id="audit">
+<tr><th>#</th><th>When (UTC)</th><th>Actor</th><th>Sheet</th><th>Action</th><th>Entity</th><th>Fields</th><th>Version</th></tr>
+{% for r in records %}
+<tr><td>{{ r.seq }}</td><td>{{ r.t }}</td><td>{{ r.actor }}</td><td>{{ r.app }}</td><td>{{ r.kind }}{% if r.duplicate %} (duplicate submit, ignored){% endif %}</td><td>{{ r.entity }}</td><td>{{ r.fields }}</td><td>{{ r.version }}</td></tr>
+{% endfor %}
+</table>
+{% endblock %}

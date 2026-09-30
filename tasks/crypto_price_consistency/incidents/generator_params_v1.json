@@ -1,0 +1,795 @@
+{
+ "schema_version": 1,
+ "params_version": "v1",
+ "fitted_at": "2026-08-04T21:54:13.169611+00:00",
+ "calibration": {
+  "manifest_created_at": "2026-08-04T21:44:33.587579+00:00",
+  "event_file_sha256": {
+   "coinbase": "01aa2122842a6e8a754a8b7b160e053d9b4e2f02936c67c86163a3dd94f7c416",
+   "bitstamp": "456cedc0530280a9ef545b7944c9fcb15b26916cd0b39628ccf4cc27a9ec0338",
+   "coingecko": "28bf6eb84753104579fd140609ed6082c2f03f9277463cf9f648b2dc24d9cee8",
+   "okx": "2ce4d606d5c5d5c58252deb4a829f9f1816d5baf35bca791cb8d7cae0ae8dd3c"
+  }
+ },
+ "method": {
+  "classes": [
+   "outage",
+   "degradation",
+   "maintenance"
+  ],
+  "merge_gap_minutes": 5.0,
+  "duration_fit": "lognormal via quantile matching (mu=ln p50, sigma=(ln p75 - ln p25)/1.34898)",
+  "coinbase_market_data_filter": "send|receive|transaction|deposit|withdraw|staking|inscription|card|sepa|payment|banking|wire|ach|onramp|cashout|custody|vault|reward|nft|travel rule|futures transfer"
+ },
+ "sources": {
+  "coinbase": {
+   "archive_start": "2023-08-31T22:42:00+00:00",
+   "window_end": "2026-08-04T21:44:33.587579+00:00",
+   "event_count_raw": 900,
+   "dropped_informational_or_filtered": 704,
+   "classes": {
+    "outage": {
+     "n_raw": 6,
+     "n_merged": 6,
+     "n_with_duration": 6,
+     "window_start": "2023-08-31T22:42:00+00:00",
+     "window_years": 2.927,
+     "rate_per_year": 2.05,
+     "duration_lognormal": {
+      "mu": 4.4285,
+      "sigma": 0.6099,
+      "n": 6,
+      "quantiles_minutes": {
+       "p10": 32.5,
+       "p25": 54.9,
+       "p50": 83.8,
+       "p75": 125.0,
+       "p90": 160.5,
+       "p95": 174.2
+      }
+     }
+    },
+    "degradation": {
+     "n_raw": 80,
+     "n_merged": 74,
+     "n_with_duration": 74,
+     "window_start": "2023-08-31T22:42:00+00:00",
+     "window_years": 2.927,
+     "rate_per_year": 25.282,
+     "duration_lognormal": {
+      "mu": 4.5218,
+      "sigma": 1.4216,
+      "n": 74,
+      "quantiles_minutes": {
+       "p10": 16.6,
+       "p25": 43.8,
+       "p50": 92.0,
+       "p75": 297.8,
+       "p90": 772.3,
+       "p95": 4264.9
+      }
+     }
+    },
+    "maintenance": {
+     "n_raw": 110,
+     "n_merged": 94,
+     "n_with_duration": 93,
+     "window_start": "2023-08-31T22:42:00+00:00",
+     "window_years": 2.927,
+     "rate_per_year": 32.115,
+     "duration_lognormal": {
+      "mu": 4.4998,
+      "sigma": 1.3605,
+      "n": 93,
+      "quantiles_minutes": {
+       "p10": 34.4,
+       "p25": 60.0,
+       "p50": 90.0,
+       "p75": 376.0,
+       "p90": 2640.0,
+       "p95": 6141.2
+      }
+     },
+     "start_hour_utc_histogram": [
+      3,
+      1,
+      2,
+      0,
+      0,
+      5,
+      1,
+      4,
+      4,
+      3,
+      1,
+      0,
+      1,
+      7,
+      9,
+      5,
+      2,
+      9,
+      3,
+      3,
+      25,
+      5,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  "bitstamp": {
+   "archive_start": "2023-06-28T09:00:00+00:00",
+   "window_end": "2026-08-04T21:44:33.587579+00:00",
+   "event_count_raw": 74,
+   "dropped_informational_or_filtered": 5,
+   "classes": {
+    "outage": {
+     "n_raw": 34,
+     "n_merged": 33,
+     "n_with_duration": 33,
+     "window_start": "2023-06-28T09:00:00+00:00",
+     "window_years": 3.103,
+     "rate_per_year": 10.635,
+     "duration_lognormal": {
+      "mu": 4.222,
+      "sigma": 1.1026,
+      "n": 33,
+      "quantiles_minutes": {
+       "p10": 23.4,
+       "p25": 42.2,
+       "p50": 68.2,
+       "p75": 186.9,
+       "p90": 452.4,
+       "p95": 556.2
+      }
+     }
+    },
+    "degradation": {
+     "n_raw": 11,
+     "n_merged": 11,
+     "n_with_duration": 10,
+     "window_start": "2023-06-28T09:00:00+00:00",
+     "window_years": 3.103,
+     "rate_per_year": 3.545,
+     "duration_lognormal": {
+      "mu": 4.7461,
+      "sigma": 0.4297,
+      "n": 9,
+      "quantiles_minutes": {
+       "p10": 26.4,
+       "p25": 74.9,
+       "p50": 115.1,
+       "p75": 133.7,
+       "p90": 167.0,
+       "p95": 179.0
+      }
+     }
+    },
+    "maintenance": {
+     "n_raw": 24,
+     "n_merged": 24,
+     "n_with_duration": 24,
+     "window_start": "2023-06-28T09:00:00+00:00",
+     "window_years": 3.103,
+     "rate_per_year": 7.734,
+     "duration_lognormal": {
+      "mu": 4.0943,
+      "sigma": 1.3612,
+      "n": 24,
+      "quantiles_minutes": {
+       "p10": 8.0,
+       "p25": 27.5,
+       "p50": 60.0,
+       "p75": 172.5,
+       "p90": 846.0,
+       "p95": 1461.0
+      }
+     },
+     "start_hour_utc_histogram": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      6,
+      3,
+      7,
+      1,
+      2,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "coingecko": {
+   "archive_start": "2021-02-22T06:33:14+00:00",
+   "window_end": "2026-08-04T21:44:33.587579+00:00",
+   "event_count_raw": 130,
+   "dropped_informational_or_filtered": 0,
+   "classes": {
+    "outage": {
+     "n_raw": 110,
+     "n_merged": 99,
+     "n_with_duration": 99,
+     "window_start": "2021-02-22T06:33:14+00:00",
+     "window_years": 5.447,
+     "rate_per_year": 18.175,
+     "duration_lognormal": {
+      "mu": 2.1494,
+      "sigma": 1.4614,
+      "n": 99,
+      "quantiles_minutes": {
+       "p10": 2.0,
+       "p25": 3.6,
+       "p50": 8.6,
+       "p75": 26.0,
+       "p90": 53.1,
+       "p95": 130.1
+      }
+     }
+    },
+    "degradation": {
+     "n_raw": 20,
+     "n_merged": 19,
+     "n_with_duration": 18,
+     "window_start": "2021-02-22T06:33:14+00:00",
+     "window_years": 5.447,
+     "rate_per_year": 3.488,
+     "duration_lognormal": {
+      "mu": 4.6943,
+      "sigma": 0.6835,
+      "n": 18,
+      "quantiles_minutes": {
+       "p10": 30.7,
+       "p25": 62.0,
+       "p50": 109.3,
+       "p75": 156.0,
+       "p90": 385.7,
+       "p95": 1338.6
+      }
+     }
+    },
+    "maintenance": {
+     "n_raw": 0,
+     "n_merged": 0,
+     "n_with_duration": 0,
+     "window_start": "2021-02-22T06:33:14+00:00",
+     "window_years": null,
+     "rate_per_year": null,
+     "duration_lognormal": null,
+     "start_hour_utc_histogram": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "okx": {
+   "archive_start": "2020-04-01T16:00:00+00:00",
+   "window_end": "2026-08-04T21:44:33.587579+00:00",
+   "event_count_raw": 25,
+   "dropped_informational_or_filtered": 0,
+   "classes": {
+    "outage": {
+     "n_raw": 16,
+     "n_merged": 16,
+     "n_with_duration": 4,
+     "window_start": "2020-04-01T16:00:00+00:00",
+     "window_years": 6.342,
+     "rate_per_year": 2.523,
+     "duration_lognormal": {
+      "mu": 4.0431,
+      "sigma": 1.33,
+      "n": 4,
+      "quantiles_minutes": {
+       "p10": 10.1,
+       "p25": 17.8,
+       "p50": 57.0,
+       "p75": 106.8,
+       "p90": 133.3,
+       "p95": 142.1
+      }
+     }
+    },
+    "degradation": {
+     "n_raw": 0,
+     "n_merged": 0,
+     "n_with_duration": 0,
+     "window_start": null,
+     "window_years": null,
+     "rate_per_year": null,
+     "duration_lognormal": null
+    },
+    "maintenance": {
+     "n_raw": 9,
+     "n_merged": 7,
+     "n_with_duration": 7,
+     "window_start": "2026-05-21T09:00:00+00:00",
+     "window_years": 0.207,
+     "rate_per_year": 33.816,
+     "duration_lognormal": {
+      "mu": 2.9957,
+      "sigma": 0.0873,
+      "n": 7,
+      "quantiles_minutes": {
+       "p10": 20.0,
+       "p25": 20.0,
+       "p50": 20.0,
+       "p75": 22.5,
+       "p90": 83.0,
+       "p95": 126.5
+      }
+     },
+     "start_hour_utc_histogram": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  }
+ },
+ "venues": {
+  "binance": {
+   "provenance": "anchored:binance_uptime_reports+borrowed_sigma:exchange_pool",
+   "uncertainty": "medium (self-reported, partial incidents)",
+   "anchor": {
+    "observed_years": 1.0,
+    "incidents": [
+     {
+      "period": "H1 2024",
+      "downtime_minutes": 12,
+      "note": "partial downtime on some query API services",
+      "url": "https://www.binance.com/en/blog/tech/8233809493081423281"
+     },
+     {
+      "period": "H1 2025",
+      "downtime_minutes": 45,
+      "note": "Futures UM order placement; Spot API reported 100%",
+      "url": "https://www.binance.com/en/blog/tech/4885724370067176471"
+     }
+    ],
+    "caveat": "self-reported; both incidents were partial, not full outages"
+   },
+   "classes": {
+    "outage": {
+     "rate_per_year": 2.0,
+     "duration_lognormal": {
+      "mu": 3.3499,
+      "sigma": 1.0142
+     }
+    },
+    "degradation": {
+     "rate_per_year": 14.4135,
+     "duration_lognormal": {
+      "mu": 4.634,
+      "sigma": 0.9256
+     }
+    },
+    "maintenance": {
+     "rate_per_year": 24.555,
+     "duration_lognormal": {
+      "mu": 3.8633,
+      "sigma": 0.9363
+     },
+     "start_hour_utc_histogram": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "okx": {
+   "provenance": "fitted:okx",
+   "classes": {
+    "outage": {
+     "rate_per_year": 2.523,
+     "duration_lognormal": {
+      "mu": 4.0431,
+      "sigma": 1.33
+     }
+    },
+    "degradation": {
+     "rate_per_year": null,
+     "duration_lognormal": null
+    },
+    "maintenance": {
+     "rate_per_year": 33.816,
+     "duration_lognormal": {
+      "mu": 2.9957,
+      "sigma": 0.0873
+     },
+     "start_hour_utc_histogram": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "kucoin": {
+   "provenance": "borrowed:mean(okx,coinbase,bitstamp)",
+   "uncertainty": "high",
+   "note": "no public archive or uptime report found (2026-08); rate uncertainty is a grid axis",
+   "classes": {
+    "outage": {
+     "rate_per_year": 5.0693,
+     "duration_lognormal": {
+      "mu": 4.2312,
+      "sigma": 1.0142
+     }
+    },
+    "degradation": {
+     "rate_per_year": 14.4135,
+     "duration_lognormal": {
+      "mu": 4.634,
+      "sigma": 0.9256
+     }
+    },
+    "maintenance": {
+     "rate_per_year": 24.555,
+     "duration_lognormal": {
+      "mu": 3.8633,
+      "sigma": 0.9363
+     },
+     "start_hour_utc_histogram": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "coinbase": {
+   "provenance": "fitted:coinbase",
+   "classes": {
+    "outage": {
+     "rate_per_year": 2.05,
+     "duration_lognormal": {
+      "mu": 4.4285,
+      "sigma": 0.6099
+     }
+    },
+    "degradation": {
+     "rate_per_year": 25.282,
+     "duration_lognormal": {
+      "mu": 4.5218,
+      "sigma": 1.4216
+     }
+    },
+    "maintenance": {
+     "rate_per_year": 32.115,
+     "duration_lognormal": {
+      "mu": 4.4998,
+      "sigma": 1.3605
+     },
+     "start_hour_utc_histogram": [
+      3,
+      1,
+      2,
+      0,
+      0,
+      5,
+      1,
+      4,
+      4,
+      3,
+      1,
+      0,
+      1,
+      7,
+      9,
+      5,
+      2,
+      9,
+      3,
+      3,
+      25,
+      5,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  "bitstamp": {
+   "provenance": "fitted:bitstamp",
+   "classes": {
+    "outage": {
+     "rate_per_year": 10.635,
+     "duration_lognormal": {
+      "mu": 4.222,
+      "sigma": 1.1026
+     }
+    },
+    "degradation": {
+     "rate_per_year": 3.545,
+     "duration_lognormal": {
+      "mu": 4.7461,
+      "sigma": 0.4297
+     }
+    },
+    "maintenance": {
+     "rate_per_year": 7.734,
+     "duration_lognormal": {
+      "mu": 4.0943,
+      "sigma": 1.3612
+     },
+     "start_hour_utc_histogram": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      6,
+      3,
+      7,
+      1,
+      2,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "coingecko": {
+   "provenance": "fitted:coingecko",
+   "classes": {
+    "outage": {
+     "rate_per_year": 18.175,
+     "duration_lognormal": {
+      "mu": 2.1494,
+      "sigma": 1.4614
+     }
+    },
+    "degradation": {
+     "rate_per_year": 3.488,
+     "duration_lognormal": {
+      "mu": 4.6943,
+      "sigma": 0.6835
+     }
+    },
+    "maintenance": {
+     "rate_per_year": null,
+     "duration_lognormal": null,
+     "start_hour_utc_histogram": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "defillama": {
+   "provenance": "borrowed:mean(coingecko)",
+   "uncertainty": "high",
+   "note": "aggregator-class venue with no archive; borrows CoinGecko",
+   "classes": {
+    "outage": {
+     "rate_per_year": 18.175,
+     "duration_lognormal": {
+      "mu": 2.1494,
+      "sigma": 1.4614
+     }
+    },
+    "degradation": {
+     "rate_per_year": 3.488,
+     "duration_lognormal": {
+      "mu": 4.6943,
+      "sigma": 0.6835
+     }
+    },
+    "maintenance": {
+     "rate_per_year": null,
+     "duration_lognormal": {
+      "mu": null,
+      "sigma": null
+     },
+     "start_hour_utc_histogram": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  }
+ },
+ "validation": {
+  "exchange_outage_rates_per_year": {
+   "okx": 2.523,
+   "coinbase": 2.05,
+   "bitstamp": 10.635
+  },
+  "exchange_outage_p50_minutes": {
+   "okx": 57.0,
+   "coinbase": 83.8,
+   "bitstamp": 68.2
+  },
+  "expected_outages_per_153d_window": {
+   "binance": 0.84,
+   "okx": 1.06,
+   "kucoin": 2.12,
+   "coinbase": 0.86,
+   "bitstamp": 4.45,
+   "coingecko": 7.61,
+   "defillama": 7.61
+  },
+  "note": "cross-source spread bounds venue-level rate uncertainty; the trace grid sweeps rate x{0.5,1,4} around these fits"
+ }
+}

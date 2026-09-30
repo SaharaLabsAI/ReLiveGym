@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Notices — Broker Portal{% endblock %}
+{% block body %}
+<h2>Notices</h2>
+{% if saved %}<div class="ok">Funding instruction recorded.</div>{% endif %}
+{% if error %}<div class="error">{{ error }}</div>{% endif %}
+{% if not notices %}<p class="muted">No notices.</p>{% endif %}
+<table id="notices">
+<tr><th>Id</th><th>Kind</th><th>Issued</th><th>Deadline</th><th>Required deposit (USD)</th><th>Status</th><th>Respond</th></tr>
+{% for n in notices %}
+<tr><td>{{ n.id }}</td><td>{{ n.kind }}</td><td>{{ n.issued_at }}</td><td>{{ n.deadline }}</td><td>{{ '%.2f' | format(n.required_usd) }}</td><td>{{ n.status }}{% if n.amount_usd is defined %} ({{ '%.2f' | format(n.amount_usd) }} at {{ n.responded_at }}){% endif %}</td>
+<td>{% if n.status == 'open' %}<form class="inline" method="post" action="/notices/{{ n.id }}/respond"><input type="hidden" name="form_token" value="{{ form_token }}"><input name="amount_usd" placeholder="amount USD" size="12"> <button type="submit">Send funding instruction</button></form>{% endif %}</td></tr>
+{% endfor %}
+</table>
+<p class="muted">A funding instruction tells the treasury what to wire; the wire itself settles at the notice deadline.</p>
+{% endblock %}

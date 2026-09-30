@@ -1,0 +1,37 @@
+run_id: bops-tmB-tlrnnone-signone-algnone
+window_id: bops-2026apr-2w
+cell:
+  tm: B
+  tlrn: none
+  sig: none
+  alg: none
+task:
+  name: broker_ops
+  username: ops
+  password: Spring-Portfolio-26!
+  symbols: [BTC, ETH]
+  positions: {BTC: 3.0, ETH: 40.0}
+  cash_usd: -190000
+  maintenance_ratio: 0.30
+  maintenance_schedule:
+    - {at: 2026-04-04T12:00:00Z, ratio: 0.36}
+    - {at: 2026-04-09T12:00:00Z, ratio: 0.42}
+  call_target_margin: 0.05
+  call_response_hours: 4
+  call_cooldown_hours: 12
+  pm_orders:
+    hours_utc: [1, 9, 17]
+    offset_pct: 1.0
+    qty: {BTC: 0.25, ETH: 5}
+  stop_after_fill_hours: 2
+  session_idle_minutes: 30
+  session_cutoff_utc: [0, 0]
+  code_valid_minutes: 10
+  max_failed_logins: 5
+  lockout_hours: 24
+sim_start: 2026-04-01T00:00:00Z
+sim_end: 2026-04-15T00:00:00Z
+budget_usd: 20.0
+agent:
+  scaffold: react
+seed: 0

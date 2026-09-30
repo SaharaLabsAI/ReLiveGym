@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Holdings — Portfolio Sheet{% endblock %}
+{% block body %}
+<h2>Holdings</h2>
+<p class="muted">Positions as of now. Open a ticker to view or record its filings. Sold positions stay listed for the record.</p>
+<table id="holdings">
+<tr><th>Ticker</th><th>Company</th><th>CIK</th><th>Shares</th><th>Status</th><th>Filing records</th><th>Last recorded filing</th></tr>
+{% for r in rows %}
+<tr class="{{ 'sold' if r.status == 'sold' else '' }}">
+  <td><a href="/portfolio/{{ r.ticker }}">{{ r.ticker }}</a></td>
+  <td>{{ r.name }}</td>
+  <td>{{ r.cik }}</td>
+  <td>{{ r.shares }}</td>
+  <td>{{ r.status }}{% if r.since %} <span class="muted">since {{ r.since | fmt('ET') }}</span>{% endif %}</td>
+  <td>{{ r.n_records }}</td>
+  <td>{% if r.last %}{{ r.last.form }} {{ r.last.accession }} <span class="muted">accepted {{ r.last.accepted_at }}</span>{% else %}—{% endif %}</td>
+</tr>
+{% endfor %}
+</table>
+{% if api_arm %}<p class="muted">API: <code>GET /portfolio/api/rows</code>, <code>PUT /portfolio/api/rows/&lt;TICKER&gt;/&lt;ACCESSION&gt;</code></p>{% endif %}
+{% endblock %}

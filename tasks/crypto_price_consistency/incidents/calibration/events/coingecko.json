@@ -1,0 +1,2212 @@
+[
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "41197",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-02-22T06:33:14+00:00",
+  "ended_at": "2021-02-22T06:35:15+00:00",
+  "duration_minutes": 2.02,
+  "url": "https://status.coingecko.com/incidents/41197",
+  "raw_timestamp": "2021-02-22T14:33:14",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "43152",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-03-22T21:29:46+00:00",
+  "ended_at": "2021-03-22T21:41:00+00:00",
+  "duration_minutes": 11.23,
+  "url": "https://status.coingecko.com/incidents/43152",
+  "raw_timestamp": "2021-03-23T05:29:46",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "43153",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-03-22T21:46:11+00:00",
+  "ended_at": "2021-03-22T22:35:46+00:00",
+  "duration_minutes": 49.58,
+  "url": "https://status.coingecko.com/incidents/43153",
+  "raw_timestamp": "2021-03-23T05:46:11",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "43825",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-04-02T15:50:50+00:00",
+  "ended_at": "2021-04-02T16:04:25+00:00",
+  "duration_minutes": 13.58,
+  "url": "https://status.coingecko.com/incidents/43825",
+  "raw_timestamp": "2021-04-02T23:50:50",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "43828",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-04-02T18:07:45+00:00",
+  "ended_at": "2021-04-02T18:17:12+00:00",
+  "duration_minutes": 9.45,
+  "url": "https://status.coingecko.com/incidents/43828",
+  "raw_timestamp": "2021-04-03T02:07:45",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "43829",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-04-02T18:25:34+00:00",
+  "ended_at": "2021-04-02T18:27:36+00:00",
+  "duration_minutes": 2.03,
+  "url": "https://status.coingecko.com/incidents/43829",
+  "raw_timestamp": "2021-04-03T02:25:34",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "43832",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-04-02T18:54:08+00:00",
+  "ended_at": "2021-04-02T19:05:45+00:00",
+  "duration_minutes": 11.62,
+  "url": "https://status.coingecko.com/incidents/43832",
+  "raw_timestamp": "2021-04-03T02:54:08",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "43833",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-04-02T19:35:09+00:00",
+  "ended_at": "2021-04-02T19:47:37+00:00",
+  "duration_minutes": 12.47,
+  "url": "https://status.coingecko.com/incidents/43833",
+  "raw_timestamp": "2021-04-03T03:35:09",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "44468",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-04-15T08:19:08+00:00",
+  "ended_at": "2021-04-15T08:22:14+00:00",
+  "duration_minutes": 3.1,
+  "url": "https://status.coingecko.com/incidents/44468",
+  "raw_timestamp": "2021-04-15T16:19:08",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "44469",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-04-15T08:29:20+00:00",
+  "ended_at": "2021-04-15T09:15:24+00:00",
+  "duration_minutes": 46.07,
+  "url": "https://status.coingecko.com/incidents/44469",
+  "raw_timestamp": "2021-04-15T16:29:20",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "44473",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-04-15T12:52:56+00:00",
+  "ended_at": "2021-04-15T12:54:58+00:00",
+  "duration_minutes": 2.03,
+  "url": "https://status.coingecko.com/incidents/44473",
+  "raw_timestamp": "2021-04-15T20:52:56",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "45583",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-05-04T05:46:22+00:00",
+  "ended_at": "2021-05-04T05:48:25+00:00",
+  "duration_minutes": 2.05,
+  "url": "https://status.coingecko.com/incidents/45583",
+  "raw_timestamp": "2021-05-04T13:46:22",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "45648",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-05-05T08:05:16+00:00",
+  "ended_at": "2021-05-05T08:07:17+00:00",
+  "duration_minutes": 2.02,
+  "url": "https://status.coingecko.com/incidents/45648",
+  "raw_timestamp": "2021-05-05T16:05:16",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "46066",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-05-10T05:04:28+00:00",
+  "ended_at": "2021-05-10T05:07:30+00:00",
+  "duration_minutes": 3.03,
+  "url": "https://status.coingecko.com/incidents/46066",
+  "raw_timestamp": "2021-05-10T13:04:28",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "46466",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-05-14T03:17:09+00:00",
+  "ended_at": "2021-05-14T03:19:10+00:00",
+  "duration_minutes": 2.02,
+  "url": "https://status.coingecko.com/incidents/46466",
+  "raw_timestamp": "2021-05-14T11:17:09",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "46593",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-05-17T04:47:14+00:00",
+  "ended_at": "2021-05-17T04:50:20+00:00",
+  "duration_minutes": 3.1,
+  "url": "https://status.coingecko.com/incidents/46593",
+  "raw_timestamp": "2021-05-17T12:47:14",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "46758",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-05-19T05:29:00+00:00",
+  "ended_at": "2021-05-19T05:38:14+00:00",
+  "duration_minutes": 9.23,
+  "url": "https://status.coingecko.com/incidents/46758",
+  "raw_timestamp": "2021-05-19T13:29:00",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "46761",
+  "title": "Service API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-05-19T05:45:27+00:00",
+  "ended_at": "2021-05-19T05:55:57+00:00",
+  "duration_minutes": 10.5,
+  "url": "https://status.coingecko.com/incidents/46761",
+  "raw_timestamp": "2021-05-19T13:45:27",
+  "extra": {
+   "detail_title": "Major incident: Service API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "48164",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-06-10T04:22:09+00:00",
+  "ended_at": "2021-06-10T04:27:21+00:00",
+  "duration_minutes": 5.2,
+  "url": "https://status.coingecko.com/incidents/48164",
+  "raw_timestamp": "2021-06-10T12:22:09",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "48282",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-06-13T07:12:53+00:00",
+  "ended_at": "2021-06-13T07:17:05+00:00",
+  "duration_minutes": 4.2,
+  "url": "https://status.coingecko.com/incidents/48282",
+  "raw_timestamp": "2021-06-13T15:12:53",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "48660",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-06-18T19:17:24+00:00",
+  "ended_at": "2021-06-18T19:25:59+00:00",
+  "duration_minutes": 8.58,
+  "url": "https://status.coingecko.com/incidents/48660",
+  "raw_timestamp": "2021-06-19T03:17:24",
+  "extra": {
+   "detail_title": "Major incident: Service API (Pro) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "48661",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-06-18T19:31:25+00:00",
+  "ended_at": "2021-06-18T20:15:46+00:00",
+  "duration_minutes": 44.35,
+  "url": "https://status.coingecko.com/incidents/48661",
+  "raw_timestamp": "2021-06-19T03:31:25",
+  "extra": {
+   "detail_title": "Major incident: Service API (Pro) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "48820",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-06-21T20:13:18+00:00",
+  "ended_at": "2021-06-21T20:19:24+00:00",
+  "duration_minutes": 6.1,
+  "url": "https://status.coingecko.com/incidents/48820",
+  "raw_timestamp": "2021-06-22T04:13:18",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "50376",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-07-15T06:42:45+00:00",
+  "ended_at": "2021-07-15T06:47:46+00:00",
+  "duration_minutes": 5.02,
+  "url": "https://status.coingecko.com/incidents/50376",
+  "raw_timestamp": "2021-07-15T14:42:45",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "50397",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-07-15T17:50:56+00:00",
+  "ended_at": "2021-07-15T18:05:57+00:00",
+  "duration_minutes": 15.02,
+  "url": "https://status.coingecko.com/incidents/50397",
+  "raw_timestamp": "2021-07-16T01:50:56",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "54186",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-08-27T16:37:39+00:00",
+  "ended_at": "2021-11-04T07:25:27+00:00",
+  "duration_minutes": 98807.8,
+  "url": "https://status.coingecko.com/incidents/54186",
+  "raw_timestamp": "2021-08-28T00:37:39",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "54327",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-08-30T06:53:53+00:00",
+  "ended_at": "2021-11-04T07:25:28+00:00",
+  "duration_minutes": 95071.58,
+  "url": "https://status.coingecko.com/incidents/54327",
+  "raw_timestamp": "2021-08-30T14:53:53",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "54329",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-08-30T07:27:52+00:00",
+  "ended_at": "2021-11-04T07:25:28+00:00",
+  "duration_minutes": 95037.6,
+  "url": "https://status.coingecko.com/incidents/54329",
+  "raw_timestamp": "2021-08-30T15:27:52",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "54342",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-08-30T09:50:24+00:00",
+  "ended_at": "2021-11-04T07:25:28+00:00",
+  "duration_minutes": 94895.07,
+  "url": "https://status.coingecko.com/incidents/54342",
+  "raw_timestamp": "2021-08-30T17:50:24",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "54820",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-09-06T02:05:56+00:00",
+  "ended_at": "2021-11-04T07:25:30+00:00",
+  "duration_minutes": 85279.57,
+  "url": "https://status.coingecko.com/incidents/54820",
+  "raw_timestamp": "2021-09-06T10:05:56",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "54827",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-09-06T04:07:24+00:00",
+  "ended_at": "2021-11-04T07:25:30+00:00",
+  "duration_minutes": 85158.1,
+  "url": "https://status.coingecko.com/incidents/54827",
+  "raw_timestamp": "2021-09-06T12:07:24",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "54838",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-09-06T07:04:07+00:00",
+  "ended_at": "2021-11-04T07:25:30+00:00",
+  "duration_minutes": 84981.38,
+  "url": "https://status.coingecko.com/incidents/54838",
+  "raw_timestamp": "2021-09-06T15:04:07",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "54925",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-09-07T14:21:56+00:00",
+  "ended_at": "2021-11-04T07:25:30+00:00",
+  "duration_minutes": 83103.57,
+  "url": "https://status.coingecko.com/incidents/54925",
+  "raw_timestamp": "2021-09-07T22:21:56",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "68101",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-11-23T07:12:55+00:00",
+  "ended_at": "2021-11-23T07:15:56+00:00",
+  "duration_minutes": 3.02,
+  "url": "https://status.coingecko.com/incidents/68101",
+  "raw_timestamp": "2021-11-23T15:12:55",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "71079",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2021-12-16T12:35:22+00:00",
+  "ended_at": "2021-12-23T20:45:09+00:00",
+  "duration_minutes": 10569.78,
+  "url": "https://status.coingecko.com/incidents/71079",
+  "raw_timestamp": "2021-12-16T20:35:22",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "74148",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-01-26T12:50:00+00:00",
+  "ended_at": "2022-01-26T13:15:59+00:00",
+  "duration_minutes": 25.98,
+  "url": "https://status.coingecko.com/incidents/74148",
+  "raw_timestamp": "2022-01-26T20:50:00",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "74150",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-01-26T13:21:05+00:00",
+  "ended_at": "2022-01-26T13:32:28+00:00",
+  "duration_minutes": 11.38,
+  "url": "https://status.coingecko.com/incidents/74150",
+  "raw_timestamp": "2022-01-26T21:21:05",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "74152",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-01-26T13:47:01+00:00",
+  "ended_at": "2022-01-26T13:55:24+00:00",
+  "duration_minutes": 8.38,
+  "url": "https://status.coingecko.com/incidents/74152",
+  "raw_timestamp": "2022-01-26T21:47:01",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "74155",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-01-26T14:24:13+00:00",
+  "ended_at": "2022-01-26T14:29:25+00:00",
+  "duration_minutes": 5.2,
+  "url": "https://status.coingecko.com/incidents/74155",
+  "raw_timestamp": "2022-01-26T22:24:13",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "74156",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-01-26T14:42:51+00:00",
+  "ended_at": "2022-01-26T14:55:15+00:00",
+  "duration_minutes": 12.4,
+  "url": "https://status.coingecko.com/incidents/74156",
+  "raw_timestamp": "2022-01-26T22:42:51",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "74157",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-01-26T15:22:55+00:00",
+  "ended_at": "2022-01-26T15:27:58+00:00",
+  "duration_minutes": 5.05,
+  "url": "https://status.coingecko.com/incidents/74157",
+  "raw_timestamp": "2022-01-26T23:22:55",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "74158",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-01-26T15:50:34+00:00",
+  "ended_at": "2022-01-26T15:52:36+00:00",
+  "duration_minutes": 2.03,
+  "url": "https://status.coingecko.com/incidents/74158",
+  "raw_timestamp": "2022-01-26T23:50:34",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "74159",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-01-26T16:23:15+00:00",
+  "ended_at": "2022-01-26T17:40:48+00:00",
+  "duration_minutes": 77.55,
+  "url": "https://status.coingecko.com/incidents/74159",
+  "raw_timestamp": "2022-01-27T00:23:15",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "78056",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-03-09T00:54:10+00:00",
+  "ended_at": "2022-03-09T01:03:13+00:00",
+  "duration_minutes": 9.05,
+  "url": "https://status.coingecko.com/incidents/78056",
+  "raw_timestamp": "2022-03-09T08:54:10",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "78060",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-03-09T01:08:15+00:00",
+  "ended_at": "2022-03-09T01:34:20+00:00",
+  "duration_minutes": 26.08,
+  "url": "https://status.coingecko.com/incidents/78060",
+  "raw_timestamp": "2022-03-09T09:08:15",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "81704",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-04-15T06:58:48+00:00",
+  "ended_at": "2022-04-15T07:01:57+00:00",
+  "duration_minutes": 3.15,
+  "url": "https://status.coingecko.com/incidents/81704",
+  "raw_timestamp": "2022-04-15T14:58:48",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "82018",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-04-19T11:54:57+00:00",
+  "ended_at": "2022-04-19T11:59:03+00:00",
+  "duration_minutes": 4.1,
+  "url": "https://status.coingecko.com/incidents/82018",
+  "raw_timestamp": "2022-04-19T19:54:57",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "82021",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-04-19T12:04:09+00:00",
+  "ended_at": "2022-04-19T12:06:10+00:00",
+  "duration_minutes": 2.02,
+  "url": "https://status.coingecko.com/incidents/82021",
+  "raw_timestamp": "2022-04-19T20:04:09",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "82169",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-04-20T18:58:08+00:00",
+  "ended_at": "2022-04-20T19:08:13+00:00",
+  "duration_minutes": 10.08,
+  "url": "https://status.coingecko.com/incidents/82169",
+  "raw_timestamp": "2022-04-21T02:58:08",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "82171",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-04-20T19:48:43+00:00",
+  "ended_at": "2022-04-20T19:58:00+00:00",
+  "duration_minutes": 9.28,
+  "url": "https://status.coingecko.com/incidents/82171",
+  "raw_timestamp": "2022-04-21T03:48:43",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "85209",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-05-19T07:31:34+00:00",
+  "ended_at": "2022-05-19T07:36:50+00:00",
+  "duration_minutes": 5.27,
+  "url": "https://status.coingecko.com/incidents/85209",
+  "raw_timestamp": "2022-05-19T15:31:34",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "85258",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-05-19T17:58:33+00:00",
+  "ended_at": "2022-05-20T03:38:18+00:00",
+  "duration_minutes": 579.75,
+  "url": "https://status.coingecko.com/incidents/85258",
+  "raw_timestamp": "2022-05-20T01:58:33",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 4
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "85325",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-05-20T04:35:39+00:00",
+  "ended_at": "2022-05-20T04:42:40+00:00",
+  "duration_minutes": 7.02,
+  "url": "https://status.coingecko.com/incidents/85325",
+  "raw_timestamp": "2022-05-20T12:35:39",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "88727",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-06-16T16:44:52+00:00",
+  "ended_at": "2022-06-16T16:46:54+00:00",
+  "duration_minutes": 2.03,
+  "url": "https://status.coingecko.com/incidents/88727",
+  "raw_timestamp": "2022-06-17T00:44:52",
+  "extra": {
+   "detail_title": "Major incident: Service API (Pro) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "88837",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-06-17T16:48:06+00:00",
+  "ended_at": "2022-06-17T16:53:17+00:00",
+  "duration_minutes": 5.18,
+  "url": "https://status.coingecko.com/incidents/88837",
+  "raw_timestamp": "2022-06-18T00:48:06",
+  "extra": {
+   "detail_title": "Major incident: Service API (Pro) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "88839",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-06-17T17:00:44+00:00",
+  "ended_at": "2022-06-17T17:05:58+00:00",
+  "duration_minutes": 5.23,
+  "url": "https://status.coingecko.com/incidents/88839",
+  "raw_timestamp": "2022-06-18T01:00:44",
+  "extra": {
+   "detail_title": "Major incident: Service API (Pro) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "88986",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-06-19T16:49:24+00:00",
+  "ended_at": "2022-06-19T17:16:57+00:00",
+  "duration_minutes": 27.55,
+  "url": "https://status.coingecko.com/incidents/88986",
+  "raw_timestamp": "2022-06-20T00:49:24",
+  "extra": {
+   "detail_title": "Major incident: Service API (Pro) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "88987",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-06-19T17:33:19+00:00",
+  "ended_at": "2022-06-19T18:04:44+00:00",
+  "duration_minutes": 31.42,
+  "url": "https://status.coingecko.com/incidents/88987",
+  "raw_timestamp": "2022-06-20T01:33:19",
+  "extra": {
+   "detail_title": "Major incident: Service API (Pro) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "92327",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-07-18T02:06:06+00:00",
+  "ended_at": "2022-07-18T02:08:07+00:00",
+  "duration_minutes": 2.02,
+  "url": "https://status.coingecko.com/incidents/92327",
+  "raw_timestamp": "2022-07-18T10:06:06",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "92328",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-07-18T02:14:28+00:00",
+  "ended_at": "2022-07-18T02:43:38+00:00",
+  "duration_minutes": 29.17,
+  "url": "https://status.coingecko.com/incidents/92328",
+  "raw_timestamp": "2022-07-18T10:14:28",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "94064",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-07-31T16:36:29+00:00",
+  "ended_at": "2022-07-31T17:51:06+00:00",
+  "duration_minutes": 74.62,
+  "url": "https://status.coingecko.com/incidents/94064",
+  "raw_timestamp": "2022-08-01T00:36:29",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "95102",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-08-08T19:09:14+00:00",
+  "ended_at": "2022-08-08T19:20:16+00:00",
+  "duration_minutes": 11.03,
+  "url": "https://status.coingecko.com/incidents/95102",
+  "raw_timestamp": "2022-08-09T03:09:14",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "96657",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-08-20T21:55:10+00:00",
+  "ended_at": "2022-08-20T22:03:30+00:00",
+  "duration_minutes": 8.33,
+  "url": "https://status.coingecko.com/incidents/96657",
+  "raw_timestamp": "2022-08-21T05:55:10",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "97713",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-08-29T19:24:33+00:00",
+  "ended_at": "2022-08-29T20:13:37+00:00",
+  "duration_minutes": 49.07,
+  "url": "https://status.coingecko.com/incidents/97713",
+  "raw_timestamp": "2022-08-30T03:24:33",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101720",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-03T23:11:51+00:00",
+  "ended_at": "2022-10-03T23:13:52+00:00",
+  "duration_minutes": 2.02,
+  "url": "https://status.coingecko.com/incidents/101720",
+  "raw_timestamp": "2022-10-04T07:11:51",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101722",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-03T23:19:18+00:00",
+  "ended_at": "2022-10-03T23:21:20+00:00",
+  "duration_minutes": 2.03,
+  "url": "https://status.coingecko.com/incidents/101722",
+  "raw_timestamp": "2022-10-04T07:19:18",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101728",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-03T23:42:25+00:00",
+  "ended_at": "2022-10-04T00:10:10+00:00",
+  "duration_minutes": 27.75,
+  "url": "https://status.coingecko.com/incidents/101728",
+  "raw_timestamp": "2022-10-04T07:42:25",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101751",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T00:55:46+00:00",
+  "ended_at": "2022-10-04T00:57:53+00:00",
+  "duration_minutes": 2.12,
+  "url": "https://status.coingecko.com/incidents/101751",
+  "raw_timestamp": "2022-10-04T08:55:46",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101759",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T01:06:19+00:00",
+  "ended_at": "2022-10-04T01:08:24+00:00",
+  "duration_minutes": 2.08,
+  "url": "https://status.coingecko.com/incidents/101759",
+  "raw_timestamp": "2022-10-04T09:06:19",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101768",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T01:32:49+00:00",
+  "ended_at": "2022-10-04T01:46:22+00:00",
+  "duration_minutes": 13.55,
+  "url": "https://status.coingecko.com/incidents/101768",
+  "raw_timestamp": "2022-10-04T09:32:49",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101772",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T01:52:23+00:00",
+  "ended_at": "2022-10-04T02:36:29+00:00",
+  "duration_minutes": 44.1,
+  "url": "https://status.coingecko.com/incidents/101772",
+  "raw_timestamp": "2022-10-04T09:52:23",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101792",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T05:19:38+00:00",
+  "ended_at": "2022-10-04T05:23:50+00:00",
+  "duration_minutes": 4.2,
+  "url": "https://status.coingecko.com/incidents/101792",
+  "raw_timestamp": "2022-10-04T13:19:38",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101798",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T05:48:14+00:00",
+  "ended_at": "2022-10-04T05:53:32+00:00",
+  "duration_minutes": 5.3,
+  "url": "https://status.coingecko.com/incidents/101798",
+  "raw_timestamp": "2022-10-04T13:48:14",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101802",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T06:36:23+00:00",
+  "ended_at": "2022-10-04T06:49:13+00:00",
+  "duration_minutes": 12.83,
+  "url": "https://status.coingecko.com/incidents/101802",
+  "raw_timestamp": "2022-10-04T14:36:23",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101811",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T07:37:43+00:00",
+  "ended_at": "2022-10-04T07:52:27+00:00",
+  "duration_minutes": 14.73,
+  "url": "https://status.coingecko.com/incidents/101811",
+  "raw_timestamp": "2022-10-04T15:37:43",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101816",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T08:13:47+00:00",
+  "ended_at": "2022-10-04T08:32:50+00:00",
+  "duration_minutes": 19.05,
+  "url": "https://status.coingecko.com/incidents/101816",
+  "raw_timestamp": "2022-10-04T16:13:47",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101819",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T08:55:53+00:00",
+  "ended_at": "2022-10-04T09:23:27+00:00",
+  "duration_minutes": 27.57,
+  "url": "https://status.coingecko.com/incidents/101819",
+  "raw_timestamp": "2022-10-04T16:55:53",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101856",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T09:30:54+00:00",
+  "ended_at": "2022-10-04T10:22:33+00:00",
+  "duration_minutes": 51.65,
+  "url": "https://status.coingecko.com/incidents/101856",
+  "raw_timestamp": "2022-10-04T17:30:54",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101858",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T09:38:51+00:00",
+  "ended_at": "2022-10-04T09:48:01+00:00",
+  "duration_minutes": 9.17,
+  "url": "https://status.coingecko.com/incidents/101858",
+  "raw_timestamp": "2022-10-04T17:38:51",
+  "extra": {
+   "detail_title": "Major incident: Service API (Pro) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "101861",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-04T09:54:23+00:00",
+  "ended_at": "2022-10-04T09:56:25+00:00",
+  "duration_minutes": 2.03,
+  "url": "https://status.coingecko.com/incidents/101861",
+  "raw_timestamp": "2022-10-04T17:54:23",
+  "extra": {
+   "detail_title": "Major incident: Service API (Pro) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "103185",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-10-14T05:14:48+00:00",
+  "ended_at": "2022-10-14T05:42:53+00:00",
+  "duration_minutes": 28.08,
+  "url": "https://status.coingecko.com/incidents/103185",
+  "raw_timestamp": "2022-10-14T13:14:48",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "105440",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-11-02T22:41:23+00:00",
+  "ended_at": "2022-11-02T22:44:29+00:00",
+  "duration_minutes": 3.1,
+  "url": "https://status.coingecko.com/incidents/105440",
+  "raw_timestamp": "2022-11-03T06:41:23",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "105443",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-11-02T23:00:17+00:00",
+  "ended_at": "2022-11-02T23:06:42+00:00",
+  "duration_minutes": 6.42,
+  "url": "https://status.coingecko.com/incidents/105443",
+  "raw_timestamp": "2022-11-03T07:00:17",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "105445",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-11-02T23:20:17+00:00",
+  "ended_at": "2022-11-03T01:28:37+00:00",
+  "duration_minutes": 128.33,
+  "url": "https://status.coingecko.com/incidents/105445",
+  "raw_timestamp": "2022-11-03T07:20:17",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "106219",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-11-09T17:36:14+00:00",
+  "ended_at": "2022-11-09T17:43:36+00:00",
+  "duration_minutes": 7.37,
+  "url": "https://status.coingecko.com/incidents/106219",
+  "raw_timestamp": "2022-11-10T01:36:14",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "107201",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-11-20T18:26:11+00:00",
+  "ended_at": "2022-11-20T18:32:28+00:00",
+  "duration_minutes": 6.28,
+  "url": "https://status.coingecko.com/incidents/107201",
+  "raw_timestamp": "2022-11-21T02:26:11",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "107851",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-11-28T17:58:12+00:00",
+  "ended_at": "2022-11-28T18:00:13+00:00",
+  "duration_minutes": 2.02,
+  "url": "https://status.coingecko.com/incidents/107851",
+  "raw_timestamp": "2022-11-29T01:58:12",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "109717",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-12-16T17:25:54+00:00",
+  "ended_at": "2022-12-16T17:30:08+00:00",
+  "duration_minutes": 4.23,
+  "url": "https://status.coingecko.com/incidents/109717",
+  "raw_timestamp": "2022-12-17T01:25:54",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "109719",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-12-16T17:36:34+00:00",
+  "ended_at": "2022-12-16T17:50:14+00:00",
+  "duration_minutes": 13.67,
+  "url": "https://status.coingecko.com/incidents/109719",
+  "raw_timestamp": "2022-12-17T01:36:34",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "110049",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2022-12-21T00:08:52+00:00",
+  "ended_at": "2022-12-21T00:20:24+00:00",
+  "duration_minutes": 11.53,
+  "url": "https://status.coingecko.com/incidents/110049",
+  "raw_timestamp": "2022-12-21T08:08:52",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "112144",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-01-11T18:18:21+00:00",
+  "ended_at": "2023-01-11T18:32:13+00:00",
+  "duration_minutes": 13.87,
+  "url": "https://status.coingecko.com/incidents/112144",
+  "raw_timestamp": "2023-01-12T02:18:21",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "112145",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-01-11T18:25:24+00:00",
+  "ended_at": "2023-01-11T18:29:25+00:00",
+  "duration_minutes": 4.02,
+  "url": "https://status.coingecko.com/incidents/112145",
+  "raw_timestamp": "2023-01-12T02:25:24",
+  "extra": {
+   "detail_title": "Major incident: Service API (Pro) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "112628",
+  "title": "Increase errors on coins/ endoints",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-01-16T17:27:03+00:00",
+  "ended_at": "2023-01-16T18:29:03+00:00",
+  "duration_minutes": 62.0,
+  "url": "https://status.coingecko.com/incidents/112628",
+  "raw_timestamp": "2023-01-17T02:00:00",
+  "extra": {
+   "detail_title": "Minor incident: Increase errors on coins/ endoints",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "114379",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-01-31T18:23:53+00:00",
+  "ended_at": "2023-01-31T18:51:12+00:00",
+  "duration_minutes": 27.32,
+  "url": "https://status.coingecko.com/incidents/114379",
+  "raw_timestamp": "2023-02-01T02:23:53",
+  "extra": {
+   "detail_title": "Minor incident: Service API (Pro) seems to be down",
+   "update_count": 5
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "114386",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-01-31T19:10:11+00:00",
+  "ended_at": "2023-01-31T19:12:12+00:00",
+  "duration_minutes": 2.02,
+  "url": "https://status.coingecko.com/incidents/114386",
+  "raw_timestamp": "2023-02-01T03:10:11",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "114391",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-01-31T19:47:07+00:00",
+  "ended_at": "2023-01-31T19:55:38+00:00",
+  "duration_minutes": 8.52,
+  "url": "https://status.coingecko.com/incidents/114391",
+  "raw_timestamp": "2023-02-01T03:47:07",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "114392",
+  "title": "Service API (Public/Free) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-01-31T20:04:05+00:00",
+  "ended_at": "2023-01-31T20:30:54+00:00",
+  "duration_minutes": 26.82,
+  "url": "https://status.coingecko.com/incidents/114392",
+  "raw_timestamp": "2023-02-01T04:04:05",
+  "extra": {
+   "detail_title": "Major incident: Service API (Public/Free) seems to be down",
+   "update_count": 4
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "114394",
+  "title": "Service API (Pro) seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-01-31T20:27:19+00:00",
+  "ended_at": "2023-01-31T21:14:16+00:00",
+  "duration_minutes": 46.95,
+  "url": "https://status.coingecko.com/incidents/114394",
+  "raw_timestamp": "2023-02-01T04:27:19",
+  "extra": {
+   "detail_title": "Major incident: Service API (Pro) seems to be down",
+   "update_count": 5
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "114727",
+  "title": "Elevated Errors",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-02-03T07:08:46+00:00",
+  "ended_at": "2023-02-03T09:47:20+00:00",
+  "duration_minutes": 158.57,
+  "url": "https://status.coingecko.com/incidents/114727",
+  "raw_timestamp": "2023-02-03T15:08:46",
+  "extra": {
+   "detail_title": "Minor incident: Elevated Errors",
+   "update_count": 4
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "114924",
+  "title": "Increased errors on pro-api.coingecko.com",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-02-05T18:45:53+00:00",
+  "ended_at": "2023-02-05T20:52:46+00:00",
+  "duration_minutes": 126.88,
+  "url": "https://status.coingecko.com/incidents/114924",
+  "raw_timestamp": "2023-02-06T02:45:53",
+  "extra": {
+   "detail_title": "Minor incident: Increased errors on pro-api.coingecko.com",
+   "update_count": 4
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "115536",
+  "title": "Increased errors on pro-api.coingecko.com",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-02-09T18:47:10+00:00",
+  "ended_at": "2023-02-09T20:42:53+00:00",
+  "duration_minutes": 115.72,
+  "url": "https://status.coingecko.com/incidents/115536",
+  "raw_timestamp": "2023-02-15T02:00:00",
+  "extra": {
+   "detail_title": "Minor incident:  Increased errors on pro-api.coingecko.com",
+   "update_count": 4
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "116656",
+  "title": "Increased errors on pro-api.coingecko.com",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-02-17T13:41:17+00:00",
+  "ended_at": "2023-02-17T16:07:13+00:00",
+  "duration_minutes": 145.93,
+  "url": "https://status.coingecko.com/incidents/116656",
+  "raw_timestamp": "2023-02-17T21:41:17",
+  "extra": {
+   "detail_title": "Major incident:  Increased errors on pro-api.coingecko.com",
+   "update_count": 4
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "121255",
+  "title": "Increased timeouts on api.coingecko.com",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-03-14T06:13:55+00:00",
+  "ended_at": "2023-03-14T07:34:55+00:00",
+  "duration_minutes": 81.0,
+  "url": "https://status.coingecko.com/incidents/121255",
+  "raw_timestamp": "2023-03-14T14:13:55",
+  "extra": {
+   "detail_title": "Minor incident: Increased timeouts on api.coingecko.com",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "121272",
+  "title": "Increased timeouts on api.coingecko.com",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-03-14T07:58:29+00:00",
+  "ended_at": "2023-03-14T10:06:26+00:00",
+  "duration_minutes": 127.95,
+  "url": "https://status.coingecko.com/incidents/121272",
+  "raw_timestamp": "2023-03-14T15:58:29",
+  "extra": {
+   "detail_title": "Minor incident: Increased timeouts on api.coingecko.com",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "121275",
+  "title": "Increased timeouts on pro-api.coingecko.com",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-03-14T08:16:39+00:00",
+  "ended_at": "2023-03-14T10:04:02+00:00",
+  "duration_minutes": 107.38,
+  "url": "https://status.coingecko.com/incidents/121275",
+  "raw_timestamp": "2023-03-14T16:16:39",
+  "extra": {
+   "detail_title": "Minor incident: Increased timeouts on pro-api.coingecko.com",
+   "update_count": 4
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "121982",
+  "title": "Increased errors",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-03-20T06:02:53+00:00",
+  "ended_at": "2023-03-20T07:05:00+00:00",
+  "duration_minutes": 62.12,
+  "url": "https://status.coingecko.com/incidents/121982",
+  "raw_timestamp": "2023-03-20T14:02:53",
+  "extra": {
+   "detail_title": "Minor incident: Increased errors",
+   "update_count": 4
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "123015",
+  "title": "Increased timeouts to api.coingecko.com (/coins/markets)",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-03-27T05:40:36+00:00",
+  "ended_at": "2023-03-30T20:04:43+00:00",
+  "duration_minutes": 5184.12,
+  "url": "https://status.coingecko.com/incidents/123015",
+  "raw_timestamp": "2023-03-27T13:40:36",
+  "extra": {
+   "detail_title": "Minor incident: Increased timeouts to api.coingecko.com (/coins/markets)",
+   "update_count": 6
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "128202",
+  "title": "Increase errors on pro-api.coingecko.com",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-04-20T14:31:55+00:00",
+  "ended_at": "2023-04-20T18:24:43+00:00",
+  "duration_minutes": 232.8,
+  "url": "https://status.coingecko.com/incidents/128202",
+  "raw_timestamp": "2023-04-20T22:31:55",
+  "extra": {
+   "detail_title": "Minor incident: Increase errors on pro-api.coingecko.com",
+   "update_count": 6
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "137422",
+  "title": "Increased errors on pro-api.coingecko.com",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-06-19T22:12:39+00:00",
+  "ended_at": "2023-06-19T22:45:13+00:00",
+  "duration_minutes": 32.57,
+  "url": "https://status.coingecko.com/incidents/137422",
+  "raw_timestamp": "2023-08-01T02:00:00",
+  "extra": {
+   "detail_title": "Minor incident: Increased errors on pro-api.coingecko.com",
+   "update_count": 6
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "150016",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-09-11T02:39:38+00:00",
+  "ended_at": "2023-09-11T02:54:41+00:00",
+  "duration_minutes": 15.05,
+  "url": "https://status.coingecko.com/incidents/150016",
+  "raw_timestamp": "2023-09-11T10:39:38",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "155840",
+  "title": "Missing data on /api/v3/coins/markets endpoint has been resolved",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2023-10-05T23:06:00+00:00",
+  "ended_at": "2023-10-06T00:48:56+00:00",
+  "duration_minutes": 102.93,
+  "url": "https://status.coingecko.com/incidents/155840",
+  "raw_timestamp": "2023-10-24T03:00:00",
+  "extra": {
+   "detail_title": "Minor incident: Missing data on /api/v3/coins/markets endpoint has been resolved",
+   "update_count": 2
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "162644",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-10-27T13:21:32+00:00",
+  "ended_at": "2023-10-27T13:23:33+00:00",
+  "duration_minutes": 2.02,
+  "url": "https://status.coingecko.com/incidents/162644",
+  "raw_timestamp": "2023-10-27T21:21:32",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "162655",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-10-27T17:07:41+00:00",
+  "ended_at": "2023-10-27T17:14:02+00:00",
+  "duration_minutes": 6.35,
+  "url": "https://status.coingecko.com/incidents/162655",
+  "raw_timestamp": "2023-10-28T01:07:41",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "162670",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-10-27T22:06:21+00:00",
+  "ended_at": "2023-10-27T22:23:33+00:00",
+  "duration_minutes": 17.2,
+  "url": "https://status.coingecko.com/incidents/162670",
+  "raw_timestamp": "2023-10-28T06:06:21",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "162880",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-10-28T20:15:47+00:00",
+  "ended_at": "2023-10-28T20:19:59+00:00",
+  "duration_minutes": 4.2,
+  "url": "https://status.coingecko.com/incidents/162880",
+  "raw_timestamp": "2023-10-29T04:15:47",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "163030",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-10-30T00:22:50+00:00",
+  "ended_at": "2023-10-30T00:59:25+00:00",
+  "duration_minutes": 36.58,
+  "url": "https://status.coingecko.com/incidents/163030",
+  "raw_timestamp": "2023-10-30T08:22:50",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "163180",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-10-30T08:59:11+00:00",
+  "ended_at": "2023-10-30T09:01:12+00:00",
+  "duration_minutes": 2.02,
+  "url": "https://status.coingecko.com/incidents/163180",
+  "raw_timestamp": "2023-11-30T08:15:00",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "173188",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2023-12-10T22:43:42+00:00",
+  "ended_at": "2023-12-10T22:49:43+00:00",
+  "duration_minutes": 6.02,
+  "url": "https://status.coingecko.com/incidents/173188",
+  "raw_timestamp": "2023-12-11T06:43:42",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "180281",
+  "title": "Exchange Rate Provider Down",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2024-01-21T00:58:02+00:00",
+  "ended_at": "2024-01-21T01:30:09+00:00",
+  "duration_minutes": 32.12,
+  "url": "https://status.coingecko.com/incidents/180281",
+  "raw_timestamp": "2024-01-21T08:58:02",
+  "extra": {
+   "detail_title": "Minor incident: Exchange Rate Provider Down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "180392",
+  "title": "Issues on /coins/markets endpoint",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2024-01-22T01:52:45+00:00",
+  "ended_at": "2024-01-22T02:16:25+00:00",
+  "duration_minutes": 23.67,
+  "url": "https://status.coingecko.com/incidents/180392",
+  "raw_timestamp": "2024-01-22T09:52:45",
+  "extra": {
+   "detail_title": "Minor incident: Issues on /coins/markets endpoint",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "180596",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2024-01-22T23:03:53+00:00",
+  "ended_at": "2024-01-23T02:23:50+00:00",
+  "duration_minutes": 199.95,
+  "url": "https://status.coingecko.com/incidents/180596",
+  "raw_timestamp": "2024-02-08T02:00:00",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "186716",
+  "title": "Performance Regression on Pro API",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2024-02-26T21:19:40+00:00",
+  "ended_at": "2024-02-26T22:47:38+00:00",
+  "duration_minutes": 87.97,
+  "url": "https://status.coingecko.com/incidents/186716",
+  "raw_timestamp": "2024-02-27T05:19:40",
+  "extra": {
+   "detail_title": "Minor incident: Performance Regression on Pro API",
+   "update_count": 4
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "193153",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2024-03-26T06:30:43+00:00",
+  "ended_at": "2024-03-26T07:29:47+00:00",
+  "duration_minutes": 59.07,
+  "url": "https://status.coingecko.com/incidents/193153",
+  "raw_timestamp": "2024-03-26T14:30:43",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "193171",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2024-03-26T07:48:50+00:00",
+  "ended_at": "2024-03-26T07:51:52+00:00",
+  "duration_minutes": 3.03,
+  "url": "https://status.coingecko.com/incidents/193171",
+  "raw_timestamp": "2024-03-26T15:48:50",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "197624",
+  "title": "Issues on /coins/markets endpoint",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2024-04-16T16:32:00+00:00",
+  "ended_at": "2024-04-16T21:00:11+00:00",
+  "duration_minutes": 268.18,
+  "url": "https://status.coingecko.com/incidents/197624",
+  "raw_timestamp": "2024-12-03T02:00:00",
+  "extra": {
+   "detail_title": "Minor incident: Issues on /coins/markets endpoint",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "258184",
+  "title": "Service GeckoTerminal API seems to be down",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2024-12-18T22:01:16+00:00",
+  "ended_at": "2024-12-18T22:06:19+00:00",
+  "duration_minutes": 5.05,
+  "url": "https://status.coingecko.com/incidents/258184",
+  "raw_timestamp": "2025-03-24T01:00:00",
+  "extra": {
+   "detail_title": "Major incident: Service GeckoTerminal API seems to be down",
+   "update_count": 3
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "287696",
+  "title": "Issues on marketchart range and OHLC endpoint",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2025-04-22T12:00:00+00:00",
+  "ended_at": "2025-04-22T23:00:00+00:00",
+  "duration_minutes": 660.0,
+  "url": "https://status.coingecko.com/incidents/287696",
+  "raw_timestamp": "2025-05-28T02:00:00",
+  "extra": {
+   "detail_title": "Minor incident: Issues on marketchart range and OHLC endpoint",
+   "update_count": 4
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "322523",
+  "title": "[Resolved] Degraded Performance",
+  "impact": "major",
+  "scheduled": false,
+  "started_at": "2025-10-14T22:25:00+00:00",
+  "ended_at": "2025-10-14T23:15:13+00:00",
+  "duration_minutes": 50.22,
+  "url": "https://status.coingecko.com/incidents/322523",
+  "raw_timestamp": "2025-10-15T06:25:00",
+  "extra": {
+   "detail_title": "Major incident: [Resolved] Degraded Performance",
+   "update_count": 2
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "336330",
+  "title": "[Ongoing] Degraded Performance",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2025-12-05T00:57:38+00:00",
+  "ended_at": null,
+  "duration_minutes": null,
+  "url": "https://status.coingecko.com/incidents/336330",
+  "raw_timestamp": "2025-12-05T08:57:38",
+  "extra": {
+   "detail_title": "Minor incident: [Ongoing] Degraded Performance",
+   "update_count": 5
+  }
+ },
+ {
+  "source": "coingecko",
+  "method": "detail_html",
+  "event_id": "343716",
+  "title": "CoinGecko Pro API - Intermittent Issues",
+  "impact": "minor",
+  "scheduled": false,
+  "started_at": "2026-01-13T23:22:42+00:00",
+  "ended_at": "2026-01-14T01:50:53+00:00",
+  "duration_minutes": 148.18,
+  "url": "https://status.coingecko.com/incidents/343716",
+  "raw_timestamp": "2026-01-14T07:22:42",
+  "extra": {
+   "detail_title": "Minor incident: CoinGecko Pro API - Intermittent Issues",
+   "update_count": 4
+  }
+ }
+]

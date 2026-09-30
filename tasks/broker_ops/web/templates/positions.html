@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Positions — Broker Portal{% endblock %}
+{% block body %}
+<h2>Positions</h2>
+<table id="positions">
+<tr><th>Symbol</th><th>Quantity</th><th>Mark (USDT)</th><th>Value (USD)</th></tr>
+{% for s, q in acct.positions.items() %}
+<tr><td>{{ s }}</td><td>{{ '%g' | format(q) }}</td><td>{{ '%.2f' | format(acct.marks[s]) }}</td><td>{{ '%.2f' | format(q * acct.marks[s]) }}</td></tr>
+{% endfor %}
+</table>
+<table id="account">
+<tr><th>Cash (USD)</th><th>Positions value</th><th>Equity</th><th>Gross exposure</th><th>Margin ratio</th><th>Maintenance requirement</th></tr>
+<tr><td class="{{ 'neg' if acct.cash_usd < 0 else '' }}">{{ '%.2f' | format(acct.cash_usd) }}</td><td>{{ '%.2f' | format(acct.value_usd) }}</td><td>{{ '%.2f' | format(acct.equity_usd) }}</td><td>{{ '%.2f' | format(acct.exposure_usd) }}</td>
+<td id="margin-ratio">{{ '%.3f' | format(acct.margin_ratio) if acct.margin_ratio is not none else '—' }}</td><td>{{ '%.2f' | format(acct.maintenance_ratio) }}</td></tr>
+</table>
+<p class="muted">Open PM orders: {{ open_orders | length }} (see <a href="/orders">Orders</a>); fills awaiting a protective stop: {{ pending_stops | length }} (see <a href="/risk">Risk desk</a>); open notices: {{ open_notices | length }} (see <a href="/notices">Notices</a>). Marks are the last completed 5-minute candle.</p>
+{% endblock %}

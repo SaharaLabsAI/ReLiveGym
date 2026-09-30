@@ -1,0 +1,23 @@
+run_id: digest-tmB-tlrnnone-signone-algnone
+window_id: digest-2026m04
+cell:
+  tm: B
+  tlrn: none
+  sig: none
+  alg: none
+task:
+  name: daily_reddit_digest
+  history_days: 7
+  digest_hour_utc: 12
+  delivery_window_hours: 1
+  lookback_hours: 24
+  digest_size: 10
+  popular_min_desc: 50
+  page_size: 50
+  data_dir: tasks/reddit_ai_popularity/data/built_min0  # the sibling's full build; month window
+sim_start: 2026-04-01T00:00:00Z
+sim_end: 2026-05-01T00:00:00Z
+budget_usd: 20.0
+agent:
+  scaffold: react
+seed: 0
